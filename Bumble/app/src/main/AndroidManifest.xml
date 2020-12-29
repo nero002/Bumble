@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
-        <activity android:name=".OTPActivity"></activity>
+        <activity android:name=".FirstPhotoActivity"></activity>
+        <activity android:name=".OTPActivity" />
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">

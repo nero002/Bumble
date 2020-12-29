@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Bumble</string>
+    <string name="what_s_your_number">"What's Your Number?"</string>
+    <string name="change">. <u>Change</u></string>
+    <string name="_919857341321">+919857341321</string>
+    <string name="enter_the_code_we_ve_sent_by_text_to">Enter the code we\'ve sent by text to</string>
+    <string name="verify_your_number"> Verify your number </string>
+    <string name="didn_t_get_a_text"><u>"Didn't get a text?"</u></string>
+    <string name="choose_a_photo">Choose a photo</string>
 </resources>

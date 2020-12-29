@@ -6,4 +6,4 @@
         android:width="@dimen/dp_10"
         android:height="@dimen/dp_10" />
 
-</>
+</shape>
