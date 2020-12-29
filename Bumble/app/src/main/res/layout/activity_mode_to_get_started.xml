@@ -20,10 +20,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <TextView
-        android:layout_width=""
-        android:layout_height=""
-    
-    
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a mode to get started"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dp_31"
+        android:layout_marginStart="@dimen/dp_38"
+        android:layout_marginEnd="@dimen/dp_38"
+        android:textStyle="bold"
+
+
+        android:layout_marginTop="@dimen/dp_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

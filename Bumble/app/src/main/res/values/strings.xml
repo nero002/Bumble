@@ -11,4 +11,14 @@
     <string name="use_cell_phone_number">Use cell phone number</string>
     <string name="don_t_worry_we_never_post_to_facebook">Don&#39;t worry! We never post to Facebook</string>
     <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="verify_your_number">Verify your number</string>
+    <string name="enter_the_code_we_ve_sent_by_text_to">enter the code we ve sent by text to</string>
+    <string name="_919857341321">919857341321</string>
+    <string name="change">. <u>change</u></string>
+    <string name="didn_t_get_a_text"><u>"didn't get a text"</u></string>
+    <string name="choose_a_photo">choose a photo</string>
+    <string name="can_clearly_see_your_face_you_can">can clearly see your face. You can</string>
+    <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
+    <string name="add_your_first">Add your first</string>
+    <string name="photo">photo</string>
 </resources>
