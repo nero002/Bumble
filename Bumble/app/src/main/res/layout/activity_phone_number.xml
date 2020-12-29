@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/yellow_bumble"
     android:layout_height="match_parent"
+    android:background="@color/yellow_bumble"
     tools:context=".PhoneNumberActivity">
 
     <TextView
         android:id="@+id/mTvNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginTop="@dimen/dp_70"
+        android:layout_marginRight="@dimen/dp_30"
         android:fontFamily="sans-serif"
-        android:text="@string/what_s_your_number"
+        android:text="@string/whats_your_number"
         android:textColor="@color/black"
         android:textSize="@dimen/dp_35"
-        android:layout_marginLeft="@dimen/dp_30"
-        android:layout_marginRight="@dimen/dp_30"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,8 +27,8 @@
         android:id="@+id/mTvReal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_20"
         android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_20"
         android:layout_marginRight="@dimen/dp_30"
         android:fontFamily="sans-serif"
         android:text="@string/text_real"
@@ -39,21 +39,20 @@
         app:layout_constraintTop_toBottomOf="@id/mTvNumber" />
 
 
-
     <EditText
-        android:layout_width="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/mTvReal"
-        app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/rectangle_phonenumber_bg"
-        android:hint="@string/in_91"
         android:id="@+id/mEtindia"
-        android:textColorHint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_40"
-        android:padding="@dimen/dp_10"
         android:layout_marginTop="@dimen/dp_40"
+        android:background="@drawable/rectangle_phonenumber_bg"
         android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
         android:drawablePadding="@dimen/dp_10"
-        android:layout_height="wrap_content"/>
+        android:hint="@string/in_91"
+        android:padding="@dimen/dp_10"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvReal" />
 
     <EditText
         android:id="@+id/mEtPhoneNumber"
@@ -61,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_40"
         android:background="@drawable/rectangle_phonenumber_bg"
         android:hint="@string/phone_number"
         android:paddingLeft="@dimen/dp_10"
@@ -72,31 +72,38 @@
         app:layout_constraintTop_toBottomOf="@id/mTvReal" />
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="@dimen/dp_20"
-        android:layout_height="wrap_content">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/tvlock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_80"
             android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="@dimen/dp_20"
             android:fontFamily="sans-serif"
             android:text="@string/text_lock"
             android:textColor="@color/black"
-            android:textSize="@dimen/dp_20" />
+            android:textSize="@dimen/dp_15" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_alignRight="@id/tvlock"
             android:id="@+id/mimgbtnclick"
-            android:src="@drawable/ic_baseline_navigate_next_24"
-            android:background="@drawable/circle_phonenumber_bg"
-            android:padding="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/tvlock"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/dp_10"
-            android:layout_height="wrap_content"/>
+            android:layout_marginEnd="@dimen/dp_20"
+            android:background="@drawable/circle_phonenumber_bg"
+            android:padding="@dimen/dp_15"
+            android:src="@drawable/ic_baseline_navigate_next_24" />
 
     </RelativeLayout>
 
