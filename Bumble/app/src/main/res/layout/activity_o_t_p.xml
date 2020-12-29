@@ -120,7 +120,7 @@
         app:layout_constraintStart_toStartOf="@+id/cardView1" />
 
     <View
-        android:id="@+id/blackCircle"
+        android:id="@+id/blackCircleView"
         style="@style/ViewViewBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"></View>
@@ -128,10 +128,11 @@
     <ImageButton
         android:id="@+id/btnNext"
         style="@style/NextImageButtonBackground"
-        app:layout_constraintBottom_toBottomOf="@+id/blackCircle"
-        app:layout_constraintEnd_toEndOf="@+id/blackCircle"
-        app:layout_constraintStart_toStartOf="@+id/blackCircle"
-        app:layout_constraintTop_toTopOf="@+id/blackCircle"
+        app:layout_constraintBottom_toBottomOf="@+id/blackCircleView"
+        app:layout_constraintEnd_toEndOf="@+id/blackCircleView"
+        app:layout_constraintStart_toStartOf="@+id/blackCircleView"
+        app:layout_constraintTop_toTopOf="@+id/blackCircleView"
+        android:background="@color/yellowish"
         app:srcCompat="@drawable/ic_baseline_keyboard_white_arrow_right_24" />
 
 

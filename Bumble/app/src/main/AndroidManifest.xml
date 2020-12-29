@@ -12,7 +12,9 @@
         <activity android:name=".FirstPhotoActivity"></activity>
         <activity android:name=".OTPActivity" />
         <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignInActivity" >
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
