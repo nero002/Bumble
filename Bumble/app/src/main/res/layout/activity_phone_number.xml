@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_30"
-        android:layout_marginTop="@dimen/dp_70"
+        android:layout_marginTop="@dimen/dp_50"
         android:layout_marginRight="@dimen/dp_30"
         android:fontFamily="sans-serif"
-        android:text="@string/whats_your_number"
+        android:text="@string/Whats_your_number"
         android:textColor="@color/black"
-        android:textSize="@dimen/dp_35"
+        android:textSize="@dimen/sp_35"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:fontFamily="sans-serif"
         android:text="@string/text_real"
         android:textColor="@color/black"
-        android:textSize="@dimen/dp_15"
+        android:textSize="@dimen/sp_15"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mTvNumber" />
@@ -100,9 +100,9 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/dp_10"
+            android:padding="@dimen/dp_10"
             android:layout_marginEnd="@dimen/dp_20"
             android:background="@drawable/circle_phonenumber_bg"
-            android:padding="@dimen/dp_15"
             android:src="@drawable/ic_baseline_navigate_next_24" />
 
     </RelativeLayout>

@@ -45,31 +45,25 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
-    <EditText
+    <TextView
         android:id="@+id/mEtchooseAPhoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-       android:hint="@string/choose_a_photo"
-        android:textColorHint="@color/black"
-        android:layout_marginStart="@dimen/dp_38"
-        android:layout_marginEnd="@dimen/dp_38"
+        style="@style/SignUpEditText"
+        android:layout_marginTop="@dimen/dp_50"
         android:background="@drawable/edit_text_bg_addphoto"
-        android:padding="@dimen/dp_18"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:ems="10"
+        android:hint="@string/choose_a_photo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <EditText
+    <TextView
         android:id="@+id/mEtAddFromFacebook"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/SignUpEditText"
+        android:layout_marginTop="@dimen/dp_10"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:background="@drawable/edit_text_bg_addphoto"
+        android:hint="@string/add_from_facebook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mEtchooseAPhoto" />
@@ -83,7 +77,7 @@
         app:layout_constraintBottom_toTopOf="@+id/mEtAddFromFacebook"
         app:layout_constraintEnd_toEndOf="@+id/mEtchooseAPhoto"
         app:layout_constraintTop_toTopOf="@+id/mEtchooseAPhoto"
-        app:layout_constraintVertical_bias="0.475"
+        app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/ic_baseline_add_24" />
 
 
