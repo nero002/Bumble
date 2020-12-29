@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_bumble"
+    tools:context=".ModeToGetStartedActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:progress="50"
+        android:progressTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/TitleTextViewBackground"
+        android:text="@string/choose_a_mode_to_get_started"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/TitleTextViewBackground2ndLine"
+        android:text="@string/started2ndline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_20"
+        android:paddingLeft="@dimen/dp_45"
+        android:paddingRight="@dimen/dp_10"
+        android:text="@string/bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/data"
+        style="@style/TextView_1RadioBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/TextView_2_with_RadioBtn"
+        android:text="@string/date"
+        app:layout_constraintBottom_toTopOf="@id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/data"
+        app:layout_constraintTop_toTopOf="@+id/data" />
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/desc_radio_btn_TextView"
+        android:text="@string/find_that_spark_in_an_empowered_community"
+        app:layout_constraintBottom_toBottomOf="@+id/data"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <RadioButton
+        style="@style/RadioBtn_started"
+        android:background="@drawable/ic_right_tick"
+        android:button="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/data"
+        app:layout_constraintEnd_toEndOf="@+id/data"
+        app:layout_constraintTop_toTopOf="@+id/data" />
+
+
+    <TextView
+        android:id="@+id/BFF"
+        style="@style/TextView_1RadioBtn"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data" />
+
+
+    <TextView
+        android:id="@+id/HeadingBFF"
+        style="@style/TextView_2_with_RadioBtn"
+        android:text="@string/BFF"
+        app:layout_constraintBottom_toTopOf="@id/desc_BFF"
+        app:layout_constraintStart_toStartOf="@+id/BFF"
+        app:layout_constraintTop_toTopOf="@+id/BFF" />
+
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/BFF"
+        app:layout_constraintEnd_toEndOf="@+id/BFF"
+        app:layout_constraintTop_toTopOf="@+id/BFF" />
+
+    <TextView
+        android:id="@+id/desc_BFF"
+        style="@style/desc_radio_btn_TextView"
+        android:text="@string/find_that_spark_in_an_empowered_community"
+        app:layout_constraintBottom_toBottomOf="@+id/BFF"
+        app:layout_constraintStart_toStartOf="@+id/HeadingBFF"
+        app:layout_constraintTop_toBottomOf="@+id/HeadingBFF" />
+
+
+    <TextView
+        android:id="@+id/Bizz"
+        style="@style/TextView_1RadioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BFF" />
+
+    <TextView
+        android:id="@+id/HeadingBizz"
+        style="@style/TextView_2_with_RadioBtn"
+        android:text="@string/bizz"
+        app:layout_constraintBottom_toTopOf="@id/desc_bizz"
+        app:layout_constraintStart_toStartOf="@+id/Bizz"
+        app:layout_constraintTop_toTopOf="@+id/Bizz" />
+
+    <TextView
+        android:id="@+id/desc_bizz"
+        style="@style/desc_radio_btn_TextView"
+        android:text="@string/find_that_spark_in_an_empowered_community"
+        app:layout_constraintBottom_toBottomOf="@+id/Bizz"
+        app:layout_constraintStart_toStartOf="@+id/HeadingBizz"
+        app:layout_constraintTop_toBottomOf="@+id/HeadingBizz" />
+
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/Bizz"
+        app:layout_constraintEnd_toEndOf="@+id/Bizz"
+        app:layout_constraintTop_toTopOf="@+id/Bizz" />
+
+
+    <TextView
+        android:id="@+id/eye"
+        style="@style/Bottom_TextView"
+        android:drawableStart="@drawable/ic_baseline_remove_red_eye_24"
+        android:text="@string/you_ll_only_be_shown_to_others_in_the_same_mode"
+        android:textSize="@dimen/sp_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mimgbtnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/circle_btn_bg"
+        android:padding="@dimen/dp_10"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
