@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Bumble</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="use_cell_phone_number">Use cell phone number</string>
+    <string name="don_t_worry_we_never_post_to_facebook">Don\'t worry! We never post to Facebook</string>
 </resources>
