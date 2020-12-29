@@ -11,14 +11,14 @@
     <TextView
         android:id="@+id/textView3"
         style="@style/TitleTextViewBackground"
-        android:text="Add your first"
+        android:text="@string/add_your_first"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
         style="@style/TitleTextViewBackground2ndLine"
-        android:text="photo"
+        android:text="@string/photo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -26,14 +26,14 @@
         android:layout_marginTop="@dimen/dp_8"
         android:id="@+id/textView6"
         style="@style/Title2ndLineTextViewBackground"
-        android:text="Choose a photo of just you where you"
+        android:text="@string/choose_a_photo_of_just_you_where_you"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView7"
         style="@style/Title2ndLineTextViewBackground"
-        android:text="can clearly see your face. You can"
+        android:text="@string/can_clearly_see_your_face_you_can"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
