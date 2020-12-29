@@ -28,32 +28,71 @@
         android:layout_marginTop="@dimen/dp_10"
         android:layout_height="wrap_content"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:id="@+id/mEtWoman"
-        app:layout_constraintTop_toBottomOf="@+id/mTvwelcome"
-        android:background="@drawable/rectangle_phonenumber_bg"
-        android:layout_marginStart="@dimen/dp_45"
-        android:text="@string/woman"
-        android:layout_marginEnd="@dimen/dp_75"
+    <TextView
+        android:id="@+id/mTvWoman"
+        style="@style/SignUpEditText"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_35"
-        android:padding="@dimen/dp_20"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:id="@+id/mEtMan"
-        app:layout_constraintTop_toBottomOf="@+id/mEtWoman"
         android:background="@drawable/rectangle_phonenumber_bg"
-        android:layout_marginStart="@dimen/dp_45"
-        android:text="@string/man"
-        android:layout_marginEnd="@dimen/dp_75"
+        android:text="@string/woman"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvwelcome" />
+
+    <TextView
+
+        android:id="@+id/mTvMan"
+        style="@style/SignUpEditText"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_20"
+        android:drawableRight="@drawable/ic_right_tick"
+        android:background="@drawable/rectangle_phonenumber_bg"
         android:padding="@dimen/dp_20"
+        android:text="@string/man"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvWoman" />
+
+    <TextView
+        style="@style/SignUpEditText"
+        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/mTvNonBinary"
+        android:text="@string/non_binary"
+        android:drawableRight="@drawable/ic_right_tick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvMan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+         android:layout_marginStart="@dimen/dp_100"
+        app:layout_constraintTop_toBottomOf="@+id/mTvNonBinary"
+        android:text="@string/more_gender_options"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
         android:layout_height="wrap_content"/>
 
+  <ImageButton
+      android:layout_width="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:src="@drawable/ic_baseline_navigate_next_24"
+      android:layout_marginBottom="@dimen/dp_40"
+      android:layout_marginRight="@dimen/dp_20"
+      android:background="@drawable/circle_phonenumber_bg"
+      android:padding="@dimen/dp_20"
+      android:layout_height="wrap_content"/>
 
-
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="16dp"
+        android:text="RadioButton"
+        app:layout_constraintBottom_toBottomOf="@+id/mTvWoman"
+        app:layout_constraintStart_toStartOf="@+id/mTvWoman" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
