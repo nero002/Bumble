@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="what_s_your_number">what\'s your number?</string>
+    <string name="whats_your_number">what&#39;s your number?</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
-    <string name="text_lock">We never share this with anyone and it won\'t be on your profile</string>
+    <string name="text_lock">We never share this with anyone and it won&#39;t be on your profile</string>
     <string name="in_91">IN +91</string>
     <string name="phone_number">Phone number</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="use_cell_phone_number">Use cell phone number</string>
-    <string name="don_t_worry_we_never_post_to_facebook">Don\'t worry! We never post to Facebook</string>
+    <string name="don_t_worry_we_never_post_to_facebook">Don&#39;t worry! We never post to Facebook</string>
 </resources>
