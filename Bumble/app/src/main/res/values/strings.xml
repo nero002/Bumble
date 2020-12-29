@@ -20,4 +20,8 @@
     <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
     <string name="add_your_first">Add your first</string>
     <string name="photo">photo</string>
+    <string name="text_identification">How do you identify?</string>
+    <string name="everyone_s_welcome_on_bumble">Everyone&#39;s welcome on Bumble!</string>
+    <string name="woman">Woman</string>
+    <string name="man">Man</string>
 </resources>
