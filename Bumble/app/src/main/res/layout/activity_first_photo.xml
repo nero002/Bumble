@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/yellow_bumble"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/yellow_bumble"
     tools:context=".FirstPhotoActivity">
 
 
@@ -15,20 +15,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView5"
-        style="@style/TitleTextViewBackground2ndLine"
-        android:text="@string/photo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:layout_marginTop="@dimen/dp_8"
         android:id="@+id/textView6"
         style="@style/Title2ndLineTextViewBackground"
+        android:layout_marginTop="@dimen/dp_10"
         android:text="@string/choose_a_photo_of_just_you_where_you"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView7"
@@ -44,14 +38,15 @@
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-
     <TextView
         android:id="@+id/mEtchooseAPhoto"
         style="@style/SignUpEditText"
         android:layout_marginTop="@dimen/dp_50"
         android:background="@drawable/edit_text_bg_addphoto"
         android:ems="10"
-        android:hint="@string/choose_a_photo"
+        android:text="@string/choose_a_photo"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,24 +56,100 @@
         android:id="@+id/mEtAddFromFacebook"
         style="@style/SignUpEditText"
         android:layout_marginTop="@dimen/dp_10"
-        android:ems="10"
         android:background="@drawable/edit_text_bg_addphoto"
-        android:hint="@string/add_from_facebook"
+        android:ems="10"
+        android:text="@string/add_from_facebook"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mEtchooseAPhoto" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/iBtnGalleryPlus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
         android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/mEtAddFromFacebook"
         app:layout_constraintEnd_toEndOf="@+id/mEtchooseAPhoto"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@+id/mEtchooseAPhoto"
         app:layout_constraintTop_toTopOf="@+id/mEtchooseAPhoto"
-        app:layout_constraintVertical_bias="0.333"
-        app:srcCompat="@drawable/ic_baseline_add_24" />
+        app:layout_constraintVertical_bias="0.414"
+        app:srcCompat="@drawable/ic_plus" />
+
+    <ImageButton
+        android:id="@+id/iBtnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/mEtAddFromFacebook"
+        app:layout_constraintEnd_toEndOf="@+id/mEtAddFromFacebook"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@+id/mEtAddFromFacebook"
+        app:layout_constraintTop_toBottomOf="@+id/iBtnGalleryPlus"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/ic_facebook_circular_logo" />
+
+    <TextView
+        android:id="@+id/mTvFullTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:padding="@dimen/dp_25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/iBtnCamera"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/camera_view_bg"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        app:layout_constraintBottom_toBottomOf="@id/mTvFullTextView"
+        app:layout_constraintEnd_toEndOf="@+id/mTvFullTextView"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="@+id/mTvFullTextView"
+        app:layout_constraintTop_toTopOf="@+id/mTvFullTextView"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/mTvNotSure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/dp_15"
+        android:text="@string/not_sure_waht_to_upload"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintBottom_toTopOf="@id/mTvCheckGuidelines"
+        app:layout_constraintStart_toEndOf="@+id/iBtnCamera"
+        app:layout_constraintTop_toTopOf="@+id/mTvFullTextView" />
+
+    <TextView
+        android:id="@+id/mTvCheckGuidelines"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/check_out_our_guidelines"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintBottom_toBottomOf="@id/mTvFullTextView"
+        app:layout_constraintStart_toStartOf="@+id/mTvNotSure"
+        app:layout_constraintTop_toBottomOf="@+id/mTvNotSure" />
+
+    <ImageButton
+        android:id="@+id/iBtnNextFromFirstPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/circle_phonenumber_bg"
+        android:padding="@dimen/dp_10"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toTopOf="@+id/mTvFullTextView"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

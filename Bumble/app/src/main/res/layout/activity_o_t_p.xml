@@ -112,7 +112,7 @@
 
 
     <TextView
-        android:id="@+id/mTvGetText"
+        android:id="@+id/mTvDidNotGetText"
         style="@style/Title2ndLineTextViewBackground"
         android:layout_marginBottom="@dimen/dp_50"
         android:text="@string/didn_t_get_a_text"
@@ -126,14 +126,14 @@
         app:layout_constraintEnd_toEndOf="parent"></View>
 
     <ImageButton
-        android:id="@+id/btnNext"
+        android:id="@+id/iBtnFromOTPNext"
         style="@style/NextImageButtonBackground"
         app:layout_constraintBottom_toBottomOf="@+id/blackCircleView"
         app:layout_constraintEnd_toEndOf="@+id/blackCircleView"
         app:layout_constraintStart_toStartOf="@+id/blackCircleView"
         app:layout_constraintTop_toTopOf="@+id/blackCircleView"
         android:background="@color/yellowish"
-        app:srcCompat="@drawable/ic_baseline_keyboard_white_arrow_right_24" />
+        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

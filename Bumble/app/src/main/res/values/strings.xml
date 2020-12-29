@@ -18,9 +18,25 @@
     <string name="choose_a_photo">Choose a photo</string>
     <string name="can_clearly_see_your_face_you_can">can clearly see your face. You can</string>
     <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
-    <string name="add_your_first">Add your first</string>
+    <string name="add_your_first">Add your first photo</string>
     <string name="photo">photo</string>
     <string name="add_from_facebook">Add from facebook</string>
+    <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
+    <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
+    <string name="what_s_your_first">"What's your first"</string>
+    <string name="you_wont_t_able_to_change_this_later">"You wont't able to change this later"</string>
+    <string name="this_will_shown_on_your_profile">This will shown on your profile</string>
+    <string name="year">Year</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="when_your">When your</string>
+    <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
+    <string name="what_s_your_email">"What's your email"</string>
+    <string name="address">address?</string>
+    <string name="we_use_this_to_recover_your_account_if_you">We use this to recover your account if you</string>
+    <string name="can_t_log_in">"can't log in."</string>
+    <string name="add_recovery_mail">Add recovery mail</string>
+    <string name="skip"><u>Skip</u></string>
     <string name="choose_a_mode_to_get_started">Choose a mode to get</string>
     <string name="started2ndline">started</string>
     <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">"Bumble's for making all kinds of connections! Your'll be able to switch modes once you're all set up."</string>
@@ -33,6 +49,7 @@
     <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
     <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
     <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
+
 
 
 </resources>
