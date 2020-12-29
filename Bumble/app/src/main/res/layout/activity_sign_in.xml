@@ -13,36 +13,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="2"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/tvTerms_of_services"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewSign_in_"
             android:layout_marginStart="100dp"
-            android:layout_marginRight="@dimen/dp_20"
-            android:layout_marginBottom="@dimen/dp_10"
-            android:layout_weight="1"
-            android:gravity="center"
             android:text="@string/terms_of_service"
-            android:textColor="@color/offwhite"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewSign_in_"
             android:layout_marginEnd="@dimen/dp_100"
-            android:layout_marginRight="@dimen/dp_20"
-            android:layout_marginBottom="@dimen/dp_10"
-            android:layout_weight="1"
-            android:gravity="center"
             android:text="@string/privacy_policy"
-            android:textColor="@color/offwhite"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tvTerms_of_services" />

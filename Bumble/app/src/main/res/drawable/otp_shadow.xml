@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:right="@dimen/dp_0"
+        android:top="@dimen/dp_0"
+        >
+        <shape>
+            <solid
+                android:color="#CCAF54"/>
+        </shape>
+    </item>
+
+    <item android:bottom="@dimen/dp_2"
+        android:left="@dimen/dp_0"
+        >
+        <shape>
+            <solid
+                android:color="@color/white"/>
+        </shape>
+    </item>
+
+</layer-list>

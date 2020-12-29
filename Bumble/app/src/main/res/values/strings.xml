@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="what_s_your_number">what\'s your number?</string>
+    <string name="whats_your_number">what&#39;s your number?</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
-    <string name="text_lock">We never share this with anyone and it won\'t be on your profile</string>
+    <string name="text_lock">We never share this with anyone and it won&#39;t be on your profile</string>
     <string name="in_91">IN +91</string>
     <string name="phone_number">Phone number</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="use_cell_phone_number">Use cell phone number</string>
-    <string name="don_t_worry_we_never_post_to_facebook">Don\'t worry! We never post to Facebook</string>
+    <string name="don_t_worry_we_never_post_to_facebook">Don&#39;t worry! We never post to Facebook</string>
+    <string name="verify_your_number">Verify your number</string>
+    <string name="enter_the_code_we_ve_sent_by_text_to">enter the code we ve sent by text to</string>
+    <string name="_919857341321">919857341321</string>
+    <string name="change">. <u>change</u></string>
+    <string name="didn_t_get_a_text"><u>"didn't get a text"</u></string>
+    <string name="choose_a_photo">choose a photo</string>
+    <string name="can_clearly_see_your_face_you_can">can clearly see your face. You can</string>
+    <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
+    <string name="add_your_first">Add your first</string>
+    <string name="photo">photo</string>
 </resources>

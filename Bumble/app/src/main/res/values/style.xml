@@ -5,4 +5,78 @@
 
         <item name="android:layout_width">match_parent</item>
     </style>
+
+    <style name="TitleTextViewBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_45</item>
+        <item name="android:layout_marginTop">@dimen/dp_50</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_31</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleTextViewBackground2ndLine">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_45</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_31</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Title2ndLineTextViewBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        >
+    </style>
+
+    <style name="EditTextDigitBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hint">x</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="CardViewBackground">
+        <item name="android:layout_width">@dimen/dp_34</item>
+        <item name="android:layout_height">@dimen/dp_41</item>
+        <item name="android:layout_margin">@dimen/dp_4</item>
+        <item name="android:layout_marginBottom">@dimen/dp_4</item>
+        <item name="android:elevation">@dimen/dp_20</item>
+    </style>
+
+    <style name="ViewViewBackground">
+        <item name="android:layout_width">@dimen/dp_47</item>
+        <item name="android:layout_height">@dimen/dp_47</item>
+        <item name="android:layout_marginEnd">@dimen/dp_20</item>
+        <item name="android:layout_marginBottom">@dimen/dp_40</item>
+        <item name="android:background">@drawable/circle_btn_bg</item>
+    </style>
+
+    <style name="NextImageButtonBackground">
+        <item name="android:layout_width">@dimen/dp_22</item>
+        <item name="android:layout_height">@dimen/dp_34</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+
+
+    <style name="TextViewSign_in_">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/dp_20</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/offwhite</item>
+
+    </style>
 </resources>
