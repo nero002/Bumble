@@ -59,7 +59,6 @@
         android:id="@+id/mEtPhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="@dimen/dp_40"
         android:background="@drawable/rectangle_phonenumber_bg"
         android:hint="@string/phone_number"
