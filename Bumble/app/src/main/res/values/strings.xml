@@ -18,7 +18,9 @@
     <string name="choose_a_photo">Choose a photo</string>
     <string name="can_clearly_see_your_face_you_can">can clearly see your face. You can</string>
     <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
-    <string name="add_your_first">Add your first</string>
+    <string name="add_your_first">Add your first photo</string>
     <string name="photo">photo</string>
     <string name="add_from_facebook">Add from facebook</string>
+    <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
+    <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
 </resources>

@@ -133,7 +133,7 @@
         app:layout_constraintStart_toStartOf="@+id/blackCircleView"
         app:layout_constraintTop_toTopOf="@+id/blackCircleView"
         android:background="@color/yellowish"
-        app:srcCompat="@drawable/ic_baseline_keyboard_white_arrow_right_24" />
+        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
