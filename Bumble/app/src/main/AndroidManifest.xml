@@ -14,6 +14,7 @@
         <activity android:name=".FirstNameActivity" />
         <activity android:name=".FirstPhotoActivity" />
         <activity android:name=".OTPActivity" />
+        <activity android:name=".ModeToGetStartedActivity"></activity>
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
