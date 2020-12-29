@@ -1,24 +1,38 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="whats_your_number">what&#39;s your number?</string>
+    <string name="Whats_your_number">"What's your number?"</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
-    <string name="text_lock">We never share this with anyone and it won&#39;t be on your profile</string>
+    <string name="text_lock">"We never share this with anyone and it won't be on your profile"</string>
     <string name="in_91">IN +91</string>
     <string name="phone_number">Phone number</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="use_cell_phone_number">Use cell phone number</string>
-    <string name="don_t_worry_we_never_post_to_facebook">Don&#39;t worry! We never post to Facebook</string>
-    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="don_t_worry_we_never_post_to_facebook">"Don't worry! We never post to Facebook"</string>
     <string name="verify_your_number">Verify your number</string>
     <string name="enter_the_code_we_ve_sent_by_text_to">enter the code we ve sent by text to</string>
     <string name="_919857341321">919857341321</string>
     <string name="change">. <u>change</u></string>
-    <string name="didn_t_get_a_text"><u>"didn't get a text"</u></string>
-    <string name="choose_a_photo">choose a photo</string>
+    <string name="didn_t_get_a_text"><u>"Didn't get a text?"</u></string>
+    <string name="choose_a_photo">Choose a photo</string>
     <string name="can_clearly_see_your_face_you_can">can clearly see your face. You can</string>
     <string name="choose_a_photo_of_just_you_where_you">Choose a photo of just you where you</string>
     <string name="add_your_first">Add your first</string>
     <string name="photo">photo</string>
+    <string name="add_from_facebook">Add from facebook</string>
+    <string name="choose_a_mode_to_get_started">Choose a mode to get</string>
+    <string name="started2ndline">started</string>
+    <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">"Bumble's for making all kinds of connections! Your'll be able to switch modes once you're all set up."</string>
+    <string name="date_find_that_in_an_empowered_community">Date Find that in an empowered community</string>
+    <string name="continue_from_facebook">Continue from facebook</string>
+    <string name="date">Date</string>
+    <string name="BFF">BFF</string>
+    <string name="make_new_friends_at_every_stage_of_your_life">Make new friends at every stage of your life</string>
+    <string name="bizz">Bizz</string>
+    <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
+    <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
+    <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
+
+
 </resources>

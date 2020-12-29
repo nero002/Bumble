@@ -65,7 +65,7 @@
         android:layout_marginRight="@dimen/dp_20"
         android:layout_marginBottom="@dimen/dp_15"
         android:background="@drawable/rectangle_btn_bg"
-        android:text="@string/continue_with_facebook"
+        android:text="@string/continue_from_facebook"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="@dimen/sp_15"
