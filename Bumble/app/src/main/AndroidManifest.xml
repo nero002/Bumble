@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
-        <activity android:name=".FirstPhotoActivity"></activity>
+        <activity android:name=".RecoveryEmailidActivity"></activity>
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".FirstNameActivity" />
+        <activity android:name=".FirstPhotoActivity" />
         <activity android:name=".OTPActivity" />
         <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".SignInActivity" >
-
-        </activity>
+        <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -23,4 +23,18 @@
     <string name="add_from_facebook">Add from facebook</string>
     <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
     <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
+    <string name="what_s_your_first">"What's your first"</string>
+    <string name="you_wont_t_able_to_change_this_later">"You wont't able to change this later"</string>
+    <string name="this_will_shown_on_your_profile">This will shown on your profile</string>
+    <string name="year">Year</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="when_your">When your</string>
+    <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
+    <string name="what_s_your_email">"What's your email"</string>
+    <string name="address">address?</string>
+    <string name="we_use_this_to_recover_your_account_if_you">We use this to recover your account if you</string>
+    <string name="can_t_log_in">"can't log in."</string>
+    <string name="add_recovery_mail">Add recovery mail</string>
+    <string name="skip"><u>Skip</u></string>
 </resources>

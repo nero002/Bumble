@@ -112,7 +112,7 @@
 
 
     <TextView
-        android:id="@+id/mTvGetText"
+        android:id="@+id/mTvDidNotGetText"
         style="@style/Title2ndLineTextViewBackground"
         android:layout_marginBottom="@dimen/dp_50"
         android:text="@string/didn_t_get_a_text"
@@ -126,7 +126,7 @@
         app:layout_constraintEnd_toEndOf="parent"></View>
 
     <ImageButton
-        android:id="@+id/btnNext"
+        android:id="@+id/iBtnFromOTPNext"
         style="@style/NextImageButtonBackground"
         app:layout_constraintBottom_toBottomOf="@+id/blackCircleView"
         app:layout_constraintEnd_toEndOf="@+id/blackCircleView"

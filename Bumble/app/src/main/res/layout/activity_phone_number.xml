@@ -100,9 +100,9 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/dp_10"
-            android:padding="@dimen/dp_10"
             android:layout_marginEnd="@dimen/dp_20"
             android:background="@drawable/circle_phonenumber_bg"
+            android:padding="@dimen/dp_10"
             android:src="@drawable/ic_baseline_navigate_next_24" />
 
     </RelativeLayout>
