@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Bumble</string>
+    <string name="text_header">What </string>
+    <string name="what_s_your_number">what\'s your number?</string>
+    <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
+    <string name="text_lock">We never share this with anyone and it won\'t be on your profile</string>
+    <string name="in_91">IN +91</string>
+    <string name="phone_number">Phone number</string>
 </resources>
