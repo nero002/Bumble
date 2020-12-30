@@ -17,19 +17,19 @@ public class SignInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
         initializeViewsAndListeners();
-        
-        mBtnContinueFromFacebook= findViewById(R.id.mBtnContinueFromFacebook);
-        mBtnContinueFromFacebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(SignInActivity.this, EnableLocationActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
     }
-
     private void initializeViewsAndListeners() {
-    }
-}
+
+            mBtnContinueFromFacebook= findViewById(R.id.mBtnContinueFromFacebook);
+            mBtnContinueFromFacebook.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent= new Intent(SignInActivity.this, EnableLocationActivity.class);
+                    startActivity(intent);
+                }
+            });
+
+
+        }
+        }
+

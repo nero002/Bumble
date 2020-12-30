@@ -21,12 +21,12 @@ public class connectActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        mTvphonenumber = findViewById(R.id.mTvphonenumber);
+
         mBtngotitconnect = findViewById(R.id.mBtngotitconnect);
         mBtngotitconnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(connectActivity.this,)
+
             }
         });
     }
