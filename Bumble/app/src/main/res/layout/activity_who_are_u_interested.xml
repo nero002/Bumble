@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/yellow_bumble"
+    android:layout_height="match_parent"
+    tools:context=".WhoAreUInterestedActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:progress="80"
+        android:progressTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/TitleTextViewBackground"
+        android:id="@+id/mTvInterestedin"
+        android:text="@string/who_are_you_interested_in"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/mTvchangelater"
+        app:layout_constraintTop_toBottomOf="@id/mTvInterestedin"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Title2ndLineTextViewBackground"
+        android:layout_marginLeft="@dimen/dp_45"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/you_can_change_this_later"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/men"
+        style="@style/TextView_1RadioBtn"
+        android:text="@string/i_m_interested_in_men"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvchangelater" />
+    <RadioButton
+        style="@style/RadioBtn_started"
+        android:background="@drawable/ic_right_tick"
+        android:button="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/men"
+        app:layout_constraintEnd_toEndOf="@+id/men"
+        app:layout_constraintTop_toTopOf="@+id/men" />
+
+    <TextView
+        android:id="@+id/women"
+        style="@style/TextView_1RadioBtn"
+        android:text="@string/i_m_interested_in_women"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/men" />
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/women"
+        app:layout_constraintEnd_toEndOf="@+id/women"
+        app:layout_constraintTop_toTopOf="@+id/women" />
+
+    <TextView
+        android:id="@+id/everyone"
+        style="@style/TextView_1RadioBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/i_m_interested_in_everyone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/women" />
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/everyone"
+        app:layout_constraintEnd_toEndOf="@+id/everyone"
+        app:layout_constraintTop_toTopOf="@+id/everyone" />
+
+    <TextView
+        android:id="@+id/eye"
+        style="@style/Bottom_TextView"
+        android:drawableStart="@drawable/ic_baseline_remove_red_eye_24"
+        android:text="@string/men_interested_in_women"
+        android:textSize="@dimen/sp_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mimgbtnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/circle_btn_bg"
+        android:padding="@dimen/dp_10"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

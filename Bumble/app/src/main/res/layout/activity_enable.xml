@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/yellow_bumble"
+    android:layout_height="match_parent"
+    tools:context=".EnableLocationActivity">
+
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:src="@drawable/locationbumble"
+       android:id="@+id/mImgbumbleLocation"
+       android:layout_marginStart="@dimen/dp_45"
+       android:layout_marginTop="@dimen/dp_100"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/mTvEnableLocation"
+        style="@style/TitleTextViewBackground"
+        android:text="@string/enable_location_services"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mImgbumbleLocation" />
+
+
+    <TextView
+        android:id="@+id/mTvmatch"
+        style="@style/Title2ndLineTextViewBackground"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/use_your_location"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintStart_toStartOf="@id/mTvEnableLocation"
+        app:layout_constraintTop_toBottomOf="@id/mTvEnableLocation" />
+
+    <TextView
+        style="@style/Title2ndLineTextViewBackground"
+        android:paddingTop="@dimen/dp_6"
+        android:text="@string/matches_in_your_area"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintStart_toStartOf="@id/mTvmatch"
+        app:layout_constraintTop_toBottomOf="@id/mTvmatch" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/mBtnEnableLocation"
+        android:background="@drawable/rectagle_button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginBottom="@dimen/dp_100"
+        android:layout_marginStart="@dimen/dp_45"
+        android:layout_marginEnd="@dimen/dp_45"
+        android:text="@string/enablelocation"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_20"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/mBtnNotnow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnEnableLocation"
+       android:background="@android:color/transparent"
+        android:text="@string/not_now"
+        android:textSize="@dimen/sp_20"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

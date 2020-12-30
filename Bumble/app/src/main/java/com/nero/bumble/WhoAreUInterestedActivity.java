@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FirstNameActivity extends AppCompatActivity {
-    
+public class WhoAreUInterestedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_name);
+        setContentView(R.layout.activity_who_are_u_interested);
     }
 }

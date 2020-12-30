@@ -16,37 +16,32 @@
     <TextView
         android:id="@+id/mTvfirstmove"
         style="@style/TitleTextViewBackground"
-        android:text="@string/women_make_the_first"
+        android:text="@string/make_the_first_move"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mImgbumblechat" />
 
-    <TextView
-        android:id="@+id/mTvmove"
-        style="@style/TitleTextViewBackground2ndLine"
-        android:text="@string/move"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/mTvfirstmove" />
 
     <TextView
         android:id="@+id/mTvmatch"
         style="@style/Title2ndLineTextViewBackground"
         android:layout_marginTop="@dimen/dp_20"
-        android:text="@string/matchwithsomeone"
-        app:layout_constraintStart_toStartOf="@id/mTvmove"
-        app:layout_constraintTop_toBottomOf="@id/mTvmove" />
+        android:text="@string/firstmovemen"
+        android:textSize="@dimen/sp_13"
+        app:layout_constraintStart_toStartOf="@id/mTvfirstmove"
+        app:layout_constraintTop_toBottomOf="@id/mTvfirstmove" />
 
     <TextView
         style="@style/Title2ndLineTextViewBackground"
         android:padding="@dimen/dp_6"
-        android:text="@string/to_send_a_message"
+        android:text="@string/first_move_men"
+        android:textSize="@dimen/sp_13"
         app:layout_constraintStart_toStartOf="@id/mTvmatch"
         app:layout_constraintTop_toBottomOf="@id/mTvmatch" />
 
     <Button
+        android:id="@+id/btn_GotIt"
         style="@style/GotItButton"
-        android:id="@+id/mBtngotit"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent" />
 
 

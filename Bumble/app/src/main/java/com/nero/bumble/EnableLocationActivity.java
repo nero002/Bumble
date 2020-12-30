@@ -5,27 +5,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
-public class ModeToGetStartedActivity extends AppCompatActivity {
+public class EnableLocationActivity extends AppCompatActivity {
 
-    private ImageButton mimgbtnclick;
+    private Button mBtnEnableLocation;
+    private Button mBtnNotnow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mode_to_get_started);
+        setContentView(R.layout.activity_enable);
         initializeViewsAndListeners();
     }
 
     private void initializeViewsAndListeners() {
-        mimgbtnclick = findViewById(R.id.mimgbtnclick);
-        mimgbtnclick.setOnClickListener(new View.OnClickListener() {
+        mBtnEnableLocation = findViewById(R.id.mBtnEnableLocation);
+        mBtnNotnow = findViewById(R.id.mBtnNotnow);
+        mBtnNotnow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ModeToGetStartedActivity.this,WhoAreUInterestedActivity.class);
+                Intent intent = new Intent(EnableLocationActivity.this,ModeToGetStartedActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }

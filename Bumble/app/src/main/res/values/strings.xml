@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="Whats_your_number">"What's your number?"</string>
+    <string name="Whats_your_number">What&amp;s your number?</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
     <string name="text_lock">"We never share this with anyone and it won't be on your profile"</string>
     <string name="in_91">IN +91</string>
@@ -41,13 +41,13 @@
     <string name="messages_aren_t_exchanged">"messages aren't exchanged"</string>
     <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
     <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
-    <string name="what_s_your_first">"What's your first"</string>
+    <string name="what_s_your_first">What &amp;s your first</string>
     <string name="you_wont_t_able_to_change_this_later">"You wont't able to change this later"</string>
     <string name="this_will_shown_on_your_profile">This will shown on your profile</string>
     <string name="year">Year</string>
     <string name="day">Day</string>
     <string name="month">Month</string>
-    <string name="when_your">When your</string>
+    <string name="when_your">When&amp;s your</string>
     <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
     <string name="what_s_your_email">"What's your email"</string>
     <string name="address">address?</string>
@@ -76,6 +76,32 @@
     <string name="i_love_gk_more_than_anything_else">I love GK more than anything else</string>
     <string name="i_can_drive_you_crazy_but_i_won_t_drive_on_footpath">"I can drive you crazy but i won't drive on footpath"</string>
     <string name="delhi_india">Delhi, India</string>
+    <string name="make_the_first_move">Make the first move</string>
+    <string name="first_move_men">first move</string>
 
+    <string name="Description">"Welcome! We\'re excited to be part of your dating journey."</string>
+    <string name="desc_1">Welcome! We\'re excited to be part of your dating journey.</string>
+    <string name="desc2">Here we treat everyone with kindness and respect, no matter their race, religion, nationality, ethnicity, skin color, ability, size, sex, gender identity, sexual orientation.</string>
+    <string name="desc3">In our mission to actively keep Bumble safe and inclusive, we ask you to join us by adhering to our <u>guidelines.</u></string>
+    <string name="desc4">And remember: We\'ve always got your back!</string>
+    <string name="desc5">With love, The Bumble Team</string>
+    <string name="before_you_swipe">Before you swipe</string>
+    <string name="i_agree">I Agree</string>
+    <string name="dd_hint">DD</string>
+
+    <string name="enable_location_services">Enable location services</string>
+    <string name="firstmovemen">When you match with someone, both of you can make the</string>
+    <string name="use_your_location">We use your location to show you potential</string>
+    <string name="matches_in_your_area">matches in your area</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="enablelocation">Enable location</string>
+    <string name="not_now">Not now</string>
+    <string name="who_are_you_interested_in">Who are you interested in?</string>
+    <string name="you_can_change_this_later">You can change this later.</string>
+    <string name="i_m_interested_in_men">I\'m interested in men</string>
+    <string name="i_m_interested_in_women">I\'m interested in women</string>
+    <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
+    <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
+    <string name="men_interested_in_women">We only show you to men interested in women</string>
 
 </resources>
