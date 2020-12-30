@@ -3,30 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/yellow_bumble"
     android:layout_height="match_parent"
+    android:background="@color/yellow_bumble"
     tools:context=".IdentificationActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:progress="60"
+        android:progressTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/text_identification"
-        android:textSize="@dimen/sp_31"
-        android:id="@+id/mTvIdentify"
-        style="@style/TitleTextViewBackground"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/mTvIdentify"
+        style="@style/TitleTextViewBackground"
         android:layout_width="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/mTvIdentify"
+        android:layout_height="wrap_content"
+        android:text="@string/text_identification"
+        android:textSize="@dimen/sp_31"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/mTvwelcome"
         style="@style/Title2ndLineTextViewBackground"
-       android:text="@string/everyone_s_welcome_on_bumble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_45"
         android:layout_marginTop="@dimen/dp_10"
-        android:layout_height="wrap_content"/>
+        android:text="@string/everyone_s_welcome_on_bumble"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvIdentify" />
 
     <TextView
         android:id="@+id/mTvWoman"
@@ -44,45 +57,45 @@
         style="@style/SignUpEditText"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_20"
-        android:drawableRight="@drawable/ic_right_tick"
         android:background="@drawable/rectangle_phonenumber_bg"
+        android:drawableRight="@drawable/ic_right_tick"
         android:padding="@dimen/dp_20"
         android:text="@string/man"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvWoman" />
 
     <TextView
+        android:id="@+id/mTvNonBinary"
         style="@style/SignUpEditText"
         android:layout_marginTop="@dimen/dp_20"
-        android:id="@+id/mTvNonBinary"
-        android:text="@string/non_binary"
         android:drawableRight="@drawable/ic_right_tick"
+        android:text="@string/non_binary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvMan" />
 
     <TextView
         android:layout_width="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-         android:layout_marginStart="@dimen/dp_100"
-        app:layout_constraintTop_toBottomOf="@+id/mTvNonBinary"
-        android:text="@string/more_gender_options"
-        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_100"
         android:layout_marginTop="@dimen/dp_30"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:gravity="center"
+        android:text="@string/more_gender_options"
         android:textColor="@color/black"
         android:textSize="@dimen/sp_18"
-        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvNonBinary" />
 
-  <ImageButton
-      android:layout_width="wrap_content"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      android:src="@drawable/ic_baseline_navigate_next_24"
-      android:layout_marginBottom="@dimen/dp_40"
-      android:layout_marginRight="@dimen/dp_20"
-      android:background="@drawable/circle_phonenumber_bg"
-      android:padding="@dimen/dp_20"
-      android:layout_height="wrap_content"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/circle_phonenumber_bg"
+        android:padding="@dimen/dp_20"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton"
