@@ -44,7 +44,9 @@
 
     <Button
         style="@style/GotItButton"
+        android:id="@+id/mBtngotit"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent" />
 
 

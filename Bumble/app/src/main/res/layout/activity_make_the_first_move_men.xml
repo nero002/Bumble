@@ -25,7 +25,7 @@
         android:id="@+id/mTvmatch"
         style="@style/Title2ndLineTextViewBackground"
         android:layout_marginTop="@dimen/dp_20"
-        android:text="When you match with someone, both of you can make the"
+        android:text="@string/firstmovemen"
         android:textSize="@dimen/sp_13"
         app:layout_constraintStart_toStartOf="@id/mTvfirstmove"
         app:layout_constraintTop_toBottomOf="@id/mTvfirstmove" />

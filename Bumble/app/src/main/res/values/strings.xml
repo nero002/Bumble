@@ -69,5 +69,19 @@
     <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
     <string name="make_the_first_move">Make the first move</string>
     <string name="first_move_men">first move</string>
+    <string name="enable_location_services">Enable location services</string>
+    <string name="firstmovemen">When you match with someone, both of you can make the</string>
+    <string name="use_your_location">We use your location to show you potential</string>
+    <string name="matches_in_your_area">matches in your area</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="enablelocation">Enable location</string>
+    <string name="not_now">Not now</string>
+    <string name="who_are_you_interested_in">Who are you interested in?</string>
+    <string name="you_can_change_this_later">You can change this later.</string>
+    <string name="i_m_interested_in_men">I\'m interested in men</string>
+    <string name="i_m_interested_in_women">I\'m interested in women</string>
+    <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
+    <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
+    <string name="men_interested_in_women">We only show you to men interested in women</string>
 
 </resources>

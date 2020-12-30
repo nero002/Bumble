@@ -50,6 +50,7 @@
         android:drawablePadding="@dimen/dp_10"
         android:hint="@string/in_91"
         android:padding="@dimen/dp_10"
+        app:layout_constraintEnd_toStartOf="@+id/mEtPhoneNumber"
         android:textColorHint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvReal" />
