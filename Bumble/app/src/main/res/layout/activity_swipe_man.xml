@@ -333,7 +333,7 @@
                             android:layout_marginStart="@dimen/dp_14"
                             android:layout_marginTop="@dimen/dp_10"
                             android:padding="@dimen/sp_15"
-                            android:text="@string/i_love_gk_more_than_anything_else"
+                            android:text="@string/thak_chukka_hu_vro_hr_bar_2nd_aa_aa_ke"
                             android:textColor="@color/black"
                             android:textSize="@dimen/sp_20" />
 
@@ -499,7 +499,7 @@
                             android:layout_marginStart="@dimen/dp_14"
                             android:layout_marginTop="@dimen/dp_10"
                             android:padding="@dimen/sp_15"
-                            android:text="I love mango juice you know (Slice) "
+                            android:text="@string/jhakkas"
                             android:textColor="@color/black"
                             android:textSize="@dimen/sp_20" />
 
