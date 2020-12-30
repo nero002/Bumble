@@ -67,6 +67,15 @@
     <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
     <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
     <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
+    <string name="bumble">bumble</string>
+    <string name="let_s_make_this_easy">"Let's make this easy swipe left if you are a supporter of the RW"</string>
+    <string name="pg_s_location">"Pg's location"</string>
+    <string name="mumbai_india">"Mumbai Bollywood, India\n ~84 km away</string>
+    <string name="block_report"><![CDATA[Block & Report]]></string>
+    <string name="block_user">Block and Report</string>
+    <string name="i_love_gk_more_than_anything_else">I love GK more than anything else</string>
+    <string name="i_can_drive_you_crazy_but_i_won_t_drive_on_footpath">"I can drive you crazy but i won't drive on footpath"</string>
+    <string name="delhi_india">Delhi, India</string>
     <string name="make_the_first_move">Make the first move</string>
     <string name="first_move_men">first move</string>
 
@@ -94,5 +103,7 @@
     <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
     <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
     <string name="men_interested_in_women">We only show you to men interested in women</string>
+    <string name="thak_chukka_hu_vro_hr_bar_2nd_aa_aa_ke">Thak chukka hu vro hr bar 2nd aa aa ke</string>
+    <string name="jhakkas">Jhakkas!</string>
 
 </resources>
