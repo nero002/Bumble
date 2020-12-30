@@ -42,6 +42,7 @@
         <item name="android:background">@drawable/edit_text_bg</item>
         <item name="android:gravity">center</item>
         <item name="android:hint">x</item>
+        <item name="android:inputType">number</item>
         <item name="android:textSize">@dimen/sp_20</item>
     </style>
 
