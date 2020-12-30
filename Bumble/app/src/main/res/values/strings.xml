@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="Whats_your_number">"What's your number?"</string>
+    <string name="Whats_your_number">What&amp;s your number?</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
     <string name="text_lock">"We never share this with anyone and it won't be on your profile"</string>
     <string name="in_91">IN +91</string>
@@ -41,13 +41,13 @@
     <string name="messages_aren_t_exchanged">"messages aren't exchanged"</string>
     <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
     <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
-    <string name="what_s_your_first">"What's your first"</string>
+    <string name="what_s_your_first">What &amp;s your first</string>
     <string name="you_wont_t_able_to_change_this_later">"You wont't able to change this later"</string>
     <string name="this_will_shown_on_your_profile">This will shown on your profile</string>
     <string name="year">Year</string>
     <string name="day">Day</string>
     <string name="month">Month</string>
-    <string name="when_your">When your</string>
+    <string name="when_your">When&amp;s your</string>
     <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
     <string name="what_s_your_email">"What's your email"</string>
     <string name="address">address?</string>
@@ -69,6 +69,7 @@
     <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
     <string name="make_the_first_move">Make the first move</string>
     <string name="first_move_men">first move</string>
+<<<<<<< HEAD
     <string name="enable_location_services">Enable location services</string>
     <string name="firstmovemen">When you match with someone, both of you can make the</string>
     <string name="use_your_location">We use your location to show you potential</string>
@@ -83,5 +84,16 @@
     <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
     <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
     <string name="men_interested_in_women">We only show you to men interested in women</string>
+=======
+    <string name="Description">"Welcome! We\'re excited to be part of your dating journey."</string>
+    <string name="desc_1">Welcome! We\'re excited to be part of your dating journey.</string>
+    <string name="desc2">Here we treat everyone with kindness and respect, no matter their race, religion, nationality, ethnicity, skin color, ability, size, sex, gender identity, sexual orientation.</string>
+    <string name="desc3">In our mission to actively keep Bumble safe and inclusive, we ask you to join us by adhering to our <u>guidelines.</u></string>
+    <string name="desc4">And remember: We\'ve always got your back!</string>
+    <string name="desc5">With love, The Bumble Team</string>
+    <string name="before_you_swipe">Before you swipe</string>
+    <string name="i_agree">I Agree</string>
+    <string name="dd_hint">DD</string>
+>>>>>>> 3b6e9c0b594d9417b0d81a6009b7006a694afe25
 
 </resources>

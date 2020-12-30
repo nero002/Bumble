@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeforeYouSwipe">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bumble_white_logo" />
+
+    <TextView
+        android:id="@+id/Heading_before"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/before_you_swipe"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dp_25"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/dp_50"
+        app:layout_constraintStart_toStartOf="@+id/Heading_before"
+        app:layout_constraintTop_toBottomOf="@+id/Heading_before">
+
+        <TextView
+            android:id="@+id/desc1"
+            style="@style/before_you_swipe_Desc"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:text="@string/desc_1" />
+
+        <TextView
+            android:id="@+id/desc2"
+            style="@style/before_you_swipe_Desc"
+            android:layout_below="@id/desc1"
+            android:text="@string/desc2" />
+
+        <TextView
+            android:id="@+id/desc3"
+            style="@style/before_you_swipe_Desc"
+            android:layout_below="@id/desc2"
+            android:text="@string/desc3" />
+
+        <TextView
+            android:id="@+id/desc4"
+            style="@style/before_you_swipe_Desc"
+            android:layout_below="@id/desc3"
+            android:text="@string/desc4" />
+
+        <TextView
+            android:id="@+id/desc5"
+            style="@style/before_you_swipe_Desc"
+            android:layout_below="@id/desc4"
+            android:text="@string/desc5" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/GotItButton"
+        android:background="@drawable/rectagle_button_yellow_bg"
+        android:text="@string/i_agree"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,8 +11,9 @@
         android:theme="@style/Theme.Bumble">
         <activity android:name=".WhoAreUInterestedActivity"></activity>
         <activity android:name=".EnableLocationActivity" />
-        <activity android:name=".connectActivity" />
+        <activity android:name=".BeforeYouSwipe"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
+        <activity android:name=".connectActivity" />
         <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
         <activity android:name=".FirstPhotoActivity" />
@@ -22,14 +23,14 @@
         <activity android:name=".OTPActivity" />
         <activity android:name=".ModeToGetStartedActivity" />
         <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".SignInActivity">
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
