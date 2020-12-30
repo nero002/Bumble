@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class firstMoveActivity extends AppCompatActivity {
+    private Button mBtngotit;
 
     private Button mbtnGotItButton;
 
@@ -24,5 +25,20 @@ public class firstMoveActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        initializeViewsAndListeners();
+    }
+
+    private void initializeViewsAndListeners() {
+        mBtngotit = findViewById(R.id.mBtngotit);
+        mBtngotit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(firstMoveActivity.this,connectActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

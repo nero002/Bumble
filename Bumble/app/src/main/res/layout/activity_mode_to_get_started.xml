@@ -37,15 +37,12 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/Title2ndLineTextViewBackground"
         android:layout_marginTop="@dimen/dp_10"
         android:layout_marginRight="@dimen/dp_20"
         android:paddingLeft="@dimen/dp_45"
         android:paddingRight="@dimen/dp_10"
         android:text="@string/bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up"
-        android:textColor="@color/black"
-        android:textSize="@dimen/sp_14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
