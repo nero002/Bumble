@@ -26,7 +26,8 @@ public class connectActivity extends AppCompatActivity {
         mBtngotitconnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(connectActivity.this,BeforeYouSwipe.class);
+                startActivity(intent);
             }
         });
     }
