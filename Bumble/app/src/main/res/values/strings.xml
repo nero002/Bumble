@@ -94,5 +94,9 @@
     <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
     <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
     <string name="men_interested_in_women">We only show you to men interested in women</string>
+    <string name="tap_to_edit_profile">Tap to edit profile</string>
+    <string name="get_the_bumble_boost">Get the Bumble Boost</string>
+    <string name="see_who_liked_you_by_upgrading_to_bumble_boost">See who liked you by upgrading to Bumble Boost</string>
+    <string name="spotlight">Spotlight</string>
 
 </resources>
