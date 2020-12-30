@@ -90,7 +90,6 @@
         android:layout_height="29dp"
         android:layout_marginStart="288dp"
         android:layout_marginBottom="16dp"
-        android:text="RadioButton"
         app:layout_constraintBottom_toBottomOf="@+id/mTvWoman"
         app:layout_constraintStart_toStartOf="@+id/mTvWoman" />
 

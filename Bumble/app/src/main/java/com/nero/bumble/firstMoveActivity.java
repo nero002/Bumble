@@ -10,10 +10,13 @@ import android.widget.Button;
 public class firstMoveActivity extends AppCompatActivity {
     private Button mBtngotit;
 
+    private Button mbtnGotItButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_move);
+
         initializeViewsAndListeners();
     }
 
@@ -26,7 +29,6 @@ public class firstMoveActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
     }
 }

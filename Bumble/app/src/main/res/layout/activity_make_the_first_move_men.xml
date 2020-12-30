@@ -39,6 +39,7 @@
         app:layout_constraintTop_toBottomOf="@id/mTvmatch" />
 
     <Button
+        android:id="@+id/btn_GotIt"
         style="@style/GotItButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

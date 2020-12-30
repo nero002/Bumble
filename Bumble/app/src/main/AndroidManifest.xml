@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
+
         <activity android:name=".WhoAreUInterestedActivity"></activity>
-        <activity android:name=".EnableLocationActivity" />
-        <activity android:name=".connectActivity" />
+        <activity android:name=".BeforeYouSwipe"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
+        <activity android:name=".EnableLocationActivity"></activity>
+        <activity android:name=".connectActivity" />
         <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
         <activity android:name=".FirstPhotoActivity" />
