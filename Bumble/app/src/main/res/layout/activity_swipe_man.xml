@@ -11,22 +11,16 @@
 
     <ImageButton
         android:id="@+id/iBtnHeart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Image_Button_alignment"
         android:layout_marginStart="@dimen/dp_10"
-        android:layout_marginTop="@dimen/dp_10"
-        android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_iconfinder_heart_01_186400_1" />
 
     <ImageButton
         android:id="@+id/iBtnFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_10"
+        style="@style/Image_Button_alignment"
         android:layout_marginEnd="@dimen/dp_10"
-        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_filtericicici" />
@@ -48,25 +42,21 @@
 
     <ImageButton
         android:id="@+id/iBtnUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Image_Button_alignment"
         android:layout_marginStart="@dimen/dp_19"
         android:layout_marginBottom="@dimen/dp_8"
-        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/iBtnHeart"
         app:srcCompat="@drawable/ic_iconfinder_user_account_profile_5402435_1" />
 
     <ImageButton
         android:id="@+id/iBtnChat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Image_Button_alignment"
         android:layout_marginEnd="@dimen/dp_19"
         android:layout_marginBottom="@dimen/dp_8"
-        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/iBtnFilter"
-        app:srcCompat="@drawable/ic_newchat" />
+        app:srcCompat="@drawable/speech_bubble" />
 
     <ImageButton
         android:id="@+id/imageButton9"
