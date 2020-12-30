@@ -16,7 +16,16 @@ public class firstMoveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_move);
-<<<<<<< HEAD
+
+        mbtnGotItButton = findViewById(R.id.women_got_it_btn);
+        mbtnGotItButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(firstMoveActivity.this, BeforeYouSwipe.class);
+                startActivity(intent);
+            }
+        });
+
         initializeViewsAndListeners();
     }
 
@@ -31,16 +40,5 @@ public class firstMoveActivity extends AppCompatActivity {
         });
 
 
-=======
-
-        mbtnGotItButton = findViewById(R.id.women_got_it_btn);
-        mbtnGotItButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(firstMoveActivity.this, BeforeYouSwipe.class);
-                startActivity(intent);
-            }
-        });
->>>>>>> 3b6e9c0b594d9417b0d81a6009b7006a694afe25
     }
 }
