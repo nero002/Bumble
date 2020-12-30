@@ -79,7 +79,7 @@
         <item name="android:textColor">@color/offwhite</item>
 
     </style>
-<!--This style is same for all the signup top edittext-->
+    <!--This style is same for all the signup top edittext-->
     <style name="SignUpEditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -135,18 +135,35 @@
     <!--   Same bottom for all with image view and TextView-->
 
 
-
     <style name="Bottom_TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:gravity">center_vertical</item>
-
         <item name="android:layout_marginBottom">@dimen/dp_50</item>
         <item name="android:drawablePadding">@dimen/dp_10</item>
         <item name="android:layout_marginStart">@dimen/dp_10</item>
 
     </style>
 
+    <!--    Image view of make the first move -->
+    <style name="ImageView_make_the_first_move">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_45</item>
+        <item name="android:layout_marginTop">@dimen/dp_100</item>
+        <item name="android:src">@drawable/bumblechat</item>
+    </style>
+
+
+    <style name="GotItButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dp_40</item>
+        <item name="android:background">@drawable/rectagle_button_bg</item>
+        <item name="android:gravity">center</item>
+       <item name="android:text">@string/got_it</item>
+    </style>
 
 </resources>

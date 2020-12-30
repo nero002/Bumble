@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Bumble">
         <activity android:name=".EnableLocationActivity"></activity>
         <activity android:name=".connectActivity" />
+        <activity android:name=".MakeTheFirstMoveMen"></activity>
         <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
         <activity android:name=".FirstPhotoActivity" />
