@@ -7,6 +7,19 @@
     android:background="@color/yellow_bumble"
     tools:context=".IdentificationActivity">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:progress="60"
+        android:progressTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/mTvIdentify"
         style="@style/TitleTextViewBackground"
@@ -44,9 +57,19 @@
         app:layout_constraintEnd_toEndOf="@+id/men"
         app:layout_constraintTop_toTopOf="@+id/men" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/women"
         style="@style/TextView_1RadioBtn"
+=======
+        android:id="@+id/mTvMan"
+        style="@style/SignUpEditText"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/rectangle_phonenumber_bg"
+        android:drawableRight="@drawable/ic_right_tick"
+        android:padding="@dimen/dp_20"
+>>>>>>> 3a554219d1032e1bf14e32415009321cfbefe97a
         android:text="@string/man"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,9 +82,16 @@
         app:layout_constraintTop_toTopOf="@+id/women" />
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/everyone"
         style="@style/TextView_1RadioBtn"
         app:layout_constraintEnd_toEndOf="parent"
+=======
+        android:id="@+id/mTvNonBinary"
+        style="@style/SignUpEditText"
+        android:layout_marginTop="@dimen/dp_20"
+        android:drawableRight="@drawable/ic_right_tick"
+>>>>>>> 3a554219d1032e1bf14e32415009321cfbefe97a
         android:text="@string/non_binary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/women" />
@@ -83,6 +113,7 @@
         android:textColor="@color/black"
         android:textSize="@dimen/sp_18"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/everyone" />
 
     <ImageButton
@@ -106,6 +137,20 @@
 
 
 
+=======
+        app:layout_constraintTop_toBottomOf="@+id/mTvNonBinary" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/circle_phonenumber_bg"
+        android:padding="@dimen/dp_20"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+>>>>>>> 3a554219d1032e1bf14e32415009321cfbefe97a
 
 
 

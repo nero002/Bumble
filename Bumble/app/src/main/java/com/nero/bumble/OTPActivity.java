@@ -25,7 +25,7 @@ public class OTPActivity extends AppCompatActivity {
         setContentView(R.layout.activity_o_t_p);
         initializeViewsAndListeners();
     }
-        
+
     private void initializeViewsAndListeners() {
             mEtFistDigit = findViewById(R.id.mEtFistDigit) ;
             mEtSecondDigit = findViewById(R.id.mEtSecondDigit);
@@ -64,4 +64,4 @@ public class OTPActivity extends AppCompatActivity {
 
 
 
-    
+

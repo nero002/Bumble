@@ -4,13 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/bumble_logo_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/bumble_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".BeelineActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
+        <activity android:name=".SwipeManActivity" />
+        <activity android:name=".SwipeWomenActivity" />
+        <activity android:name=".SettingActivity"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
@@ -24,14 +28,14 @@
         <activity android:name=".OTPActivity" />
         <activity android:name=".ModeToGetStartedActivity" />
         <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".SignInActivity">
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

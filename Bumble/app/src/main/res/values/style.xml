@@ -203,6 +203,7 @@
 
     </style>
 
+<<<<<<< HEAD
     <style name="SettingsTextviewWithBackground">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -213,5 +214,21 @@
         <item name="android:textSize">@dimen/sp_20</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:padding">@dimen/dp_9</item>
+=======
+<!--swipe man & women-->
+<style name="Image_Button_alignment">
+
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_marginTop">@dimen/dp_10</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">@dimen/sp_11</item>
+
+</style>
+
+    <style name="image_view_Scroll_salman">
+
+
+>>>>>>> 3a554219d1032e1bf14e32415009321cfbefe97a
     </style>
 </resources>

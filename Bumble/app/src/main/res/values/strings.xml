@@ -27,7 +27,7 @@
     <string name="man">Man</string>
     <string name="non_binary">Non-binary</string>
     <string name="more_gender_options">More gender options</string>
-    <string name="what_s_your_email_address">"What's your email address?"</string>
+    <string name="what_s_your_email_address">"What&amp;s your email address?"</string>
     <string name="recoverymail">"We use this to recover your account if you can't login."</string>
     <string name="firstmove">Women make the first move</string>
     <string name="sendamessage">When you match with someone,you have to send a message first</string>
@@ -49,15 +49,15 @@
     <string name="month">Month</string>
     <string name="when_your">"When's your"</string>
     <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
-    <string name="what_s_your_email">"What's your email"</string>
+    <string name="what_s_your_email">What &amp;s your email</string>
     <string name="address">address?</string>
     <string name="we_use_this_to_recover_your_account_if_you">We use this to recover your account if you</string>
-    <string name="can_t_log_in">"can't log in."</string>
+    <string name="can_t_log_in">can &amp;t log in.</string>
     <string name="add_recovery_mail">Add recovery mail</string>
     <string name="skip"><u>Skip</u></string>
     <string name="choose_a_mode_to_get_started">Choose a mode to get</string>
     <string name="started2ndline">started</string>
-    <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">"Bumble's for making all kinds of connections! Your'll be able to switch modes once you're all set up."</string>
+    <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">Bumble &amp;s for making all kinds of connections! Your &amp;ll be able to switch modes once you &amp;re all set up.</string>
     <string name="date_find_that_in_an_empowered_community">Date Find that in an empowered community</string>
     <string name="continue_from_facebook">Continue from facebook</string>
     <string name="date">Date</string>
@@ -67,11 +67,20 @@
     <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
     <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
     <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
+    <string name="bumble">bumble</string>
+    <string name="let_s_make_this_easy">"Let's make this easy swipe left if you are a supporter of the RW"</string>
+    <string name="pg_s_location">"Pg's location"</string>
+    <string name="mumbai_india">"Mumbai Bollywood, India\n ~84 km away</string>
+    <string name="block_report"><![CDATA[Block & Report]]></string>
+    <string name="block_user">Block and Report</string>
+    <string name="i_love_gk_more_than_anything_else">I love GK more than anything else</string>
+    <string name="i_can_drive_you_crazy_but_i_won_t_drive_on_footpath">"I can drive you crazy but i won't drive on footpath"</string>
+    <string name="delhi_india">Delhi, India</string>
     <string name="make_the_first_move">Make the first move</string>
     <string name="first_move_men">first move</string>
 
-    <string name="Description">"Welcome! We\'re excited to be part of your dating journey."</string>
-    <string name="desc_1">Welcome! We\'re excited to be part of your dating journey.</string>
+    <string name="Description">Welcome! We &amp;re excited to be part of your dating journey.</string>
+    <string name="desc_1">Welcome! We &amp;re excited to be part of your dating journey.</string>
     <string name="desc2">Here we treat everyone with kindness and respect, no matter their race, religion, nationality, ethnicity, skin color, ability, size, sex, gender identity, sexual orientation.</string>
     <string name="desc3">In our mission to actively keep Bumble safe and inclusive, we ask you to join us by adhering to our <u>guidelines.</u></string>
     <string name="desc4">And remember: We\'ve always got your back!</string>
@@ -108,5 +117,13 @@
     <string name="temporaryhide">Temporarily hide your profile from all modes.If you do this,you won\'t lose any connections or chats.</string>
     <string name="notification_settings">Notification settings</string>
     <string name="login_methods">Login methods</string>
+    <string name="tap_to_edit_profile">Tap to edit profile</string>
+    <string name="get_the_bumble_boost">Get the Bumble Boost</string>
+    <string name="see_who_liked_you_by_upgrading_to_bumble_boost">See who liked you by upgrading to Bumble Boost</string>
+    <string name="spotlight">Spotlight</string>
+    <string name="thak_chukka_hu_vro_hr_bar_2nd_aa_aa_ke">Thak chukka hu vro hr bar 2nd aa aa ke</string>
+    <string name="jhakkas">Jhakkas!</string>
+    <string name="beeline">Beeline</string>
+    <string name="contact_faq"><![CDATA[Contact & FAQ]]></string>
 
 </resources>
