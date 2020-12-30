@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FirstPhotoActivity extends AppCompatActivity {
-
+public class SwipeManActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_photo);
+        setContentView(R.layout.activity_swipe_man);
     }
 }

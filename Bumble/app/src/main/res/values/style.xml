@@ -78,7 +78,7 @@
         <item name="android:textColor">@color/offwhite</item>
 
     </style>
-
+<!--This style is same for all the signup top edittext-->
     <style name="SignUpEditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

@@ -21,20 +21,24 @@
     <string name="add_your_first">Add your first photo</string>
     <string name="photo">photo</string>
     <string name="add_from_facebook">Add from facebook</string>
-    <string name="choose_a_mode_to_get_started">Choose a mode to get</string>
-    <string name="started2ndline">started</string>
-    <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">"Bumble's for making all kinds of connections! Your'll be able to switch modes once you're all set up."</string>
-    <string name="date_find_that_in_an_empowered_community">Date Find that in an empowered community</string>
-    <string name="continue_from_facebook">Continue from facebook</string>
-    <string name="date">Date</string>
-    <string name="BFF">BFF</string>
-    <string name="make_new_friends_at_every_stage_of_your_life">Make new friends at every stage of your life</string>
-    <string name="bizz">Bizz</string>
-    <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
-    <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
-    <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
-
-
+    <string name="text_identification">How do you identify?</string>
+    <string name="everyone_s_welcome_on_bumble">"Everyone's welcome on Bumble!"</string>
+    <string name="woman">Woman</string>
+    <string name="man">Man</string>
+    <string name="non_binary">Non-binary</string>
+    <string name="more_gender_options">More gender options</string>
+    <string name="what_s_your_email_address">"What's your email address?"</string>
+    <string name="recoverymail">"We use this to recover your account if you can't login."</string>
+    <string name="firstmove">Women make the first move</string>
+    <string name="sendamessage">When you match with someone,you have to send a message first</string>
+    <string name="women_make_the_first">Women make the first</string>
+    <string name="move">move</string>
+    <string name="matchwithsomeone">When you match with someone ,you have</string>
+    <string name="to_send_a_message">to send a message first.</string>
+    <string name="got_it">Got it</string>
+    <string name="_24_hours_to_connect">24 hours to connect</string>
+    <string name="matches">Matches expire after 24 hours if first</string>
+    <string name="messages_aren_t_exchanged">"messages aren't exchanged"</string>
     <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
     <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
     <string name="what_s_your_first">"What's your first"</string>
@@ -51,4 +55,27 @@
     <string name="can_t_log_in">"can't log in."</string>
     <string name="add_recovery_mail">Add recovery mail</string>
     <string name="skip"><u>Skip</u></string>
+    <string name="choose_a_mode_to_get_started">Choose a mode to get</string>
+    <string name="started2ndline">started</string>
+    <string name="bumble_s_for_making_all_kinds_of_connections_your_ll_be_able_to_switch_modes_once_you_re_all_set_up">"Bumble's for making all kinds of connections! Your'll be able to switch modes once you're all set up."</string>
+    <string name="date_find_that_in_an_empowered_community">Date Find that in an empowered community</string>
+    <string name="continue_from_facebook">Continue from facebook</string>
+    <string name="date">Date</string>
+    <string name="BFF">BFF</string>
+    <string name="make_new_friends_at_every_stage_of_your_life">Make new friends at every stage of your life</string>
+    <string name="bizz">Bizz</string>
+    <string name="move_your_career_foward_the_modern_way">Move your career foward the modern way</string>
+    <string name="you_ll_only_be_shown_to_others_in_the_same_mode">"You\'ll only be shown to others in the same mode."</string>
+    <string name="find_that_spark_in_an_empowered_community">Find that spark in an empowered community</string>
+    <string name="bumble">bumble</string>
+    <string name="let_s_make_this_easy">"Let's make this easy swipe left if you are a supporter of the RW"</string>
+    <string name="pg_s_location">"Pg's location"</string>
+    <string name="mumbai_india">"Mumbai Bollywood, India\n ~84 km away</string>
+    <string name="block_report"><![CDATA[Block & Report]]></string>
+    <string name="block_user">Block and Report</string>
+    <string name="i_love_gk_more_than_anything_else">I love GK more than anything else</string>
+    <string name="i_can_drive_you_crazy_but_i_won_t_drive_on_footpath">"I can drive you crazy but i won't drive on footpath"</string>
+    <string name="delhi_india">Delhi, India</string>
+
+
 </resources>

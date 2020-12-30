@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/yellow_bumble"
+    android:layout_height="match_parent"
+    tools:context=".connectActivity">
+
+    <ImageView
+        android:id="@+id/mImgbumblechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_45"
+        android:layout_marginTop="@dimen/dp_100"
+        android:src="@drawable/clock2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mTvconnect"
+        style="@style/TitleTextViewBackground"
+        android:layout_marginTop="48dp"
+        android:text="@string/_24_hours_to_connect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mImgbumblechat" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/mTvconnect"
+        app:layout_constraintTop_toBottomOf="@id/mTvconnect"
+        android:text="@string/matches"
+        android:id="@+id/mTvmatches"
+        style="@style/Title2ndLineTextViewBackground"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/Title2ndLineTextViewBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_6"
+        android:text="@string/messages_aren_t_exchanged"
+        app:layout_constraintStart_toStartOf="@id/mTvmatches"
+        app:layout_constraintTop_toBottomOf="@id/mTvmatches" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/rectagle_button_bg"
+        android:text="@string/got_it"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/dp_40"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
