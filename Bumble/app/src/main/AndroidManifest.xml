@@ -4,23 +4,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/bumble_logo_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/bumble_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity"></activity>
         <activity android:name=".SwipeWomenActivity" />
         <activity android:name=".connectActivity" />
-
-        <activity android:name=".BeforeYouSwipe"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity"></activity>
-
-
         <activity android:name=".WhoAreUInterestedActivity"></activity>
-
->>>>>>>>> Temporary merge branch 2
         <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
         <activity android:name=".FirstPhotoActivity" />

@@ -17,7 +17,7 @@ public class firstMoveActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_move);
 
-        mbtnGotItButton = findViewById(R.id.women_got_it_btn);
+        mbtnGotItButton = findViewById(R.id.mBtngotit);
         mbtnGotItButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

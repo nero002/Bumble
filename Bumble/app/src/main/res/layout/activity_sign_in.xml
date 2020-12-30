@@ -69,7 +69,7 @@
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="@dimen/sp_15"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/mTvphonenumber"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
