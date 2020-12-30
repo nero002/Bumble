@@ -17,6 +17,15 @@ public class firstMoveActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_move);
 
+        mbtnGotItButton = findViewById(R.id.women_got_it_btn);
+        mbtnGotItButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(firstMoveActivity.this, BeforeYouSwipe.class);
+                startActivity(intent);
+            }
+        });
+
         initializeViewsAndListeners();
     }
 
@@ -29,6 +38,7 @@ public class firstMoveActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
     }
 }
