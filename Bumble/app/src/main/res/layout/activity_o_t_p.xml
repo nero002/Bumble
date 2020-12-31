@@ -114,10 +114,10 @@
     <TextView
         android:id="@+id/mTvDidNotGetText"
         style="@style/Title2ndLineTextViewBackground"
-        android:layout_marginBottom="@dimen/dp_50"
+        android:layout_marginBottom="@dimen/dp_35"
         android:text="@string/didn_t_get_a_text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/cardView1" />
+        app:layout_constraintStart_toStartOf="@+id/mTvNumberEntered" />
 
     <View
         android:id="@+id/blackCircleView"
@@ -133,7 +133,7 @@
         app:layout_constraintStart_toStartOf="@+id/blackCircleView"
         app:layout_constraintTop_toTopOf="@+id/blackCircleView"
         android:background="@color/yellowish"
-        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
+        app:srcCompat="@drawable/ic_baseline_keyboard_white_arrow_right_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
