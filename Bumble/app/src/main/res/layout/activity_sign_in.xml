@@ -26,7 +26,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tvPrivacy_policy"
             style="@style/TextViewSign_in_"
             android:layout_marginEnd="@dimen/dp_100"
             android:text="@string/privacy_policy"

@@ -4,13 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class PhoneNumberActivity extends AppCompatActivity {
 
-    private EditText mEtindia;
     private EditText mEtPhoneNumber;
     private ImageButton mimgbtnclick;
 
@@ -24,15 +26,30 @@ public class PhoneNumberActivity extends AppCompatActivity {
 
     private void initializeViewsAndListen() {
 
-        mEtindia = findViewById(R.id.mEtindia);
         mEtPhoneNumber = findViewById(R.id.mEtPhoneNumber);
         mimgbtnclick = findViewById(R.id.mimgbtnclick);
+        mEtPhoneNumber.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                mimgbtnclick.setBackgroundResource(R.drawable.circle_btn_bg);
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
+        });
         mimgbtnclick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (isCredentialValid()) {
                     Intent intent = new Intent(PhoneNumberActivity.this,OTPActivity.class);
-                    intent.putExtra("data",mEtPhoneNumber.getText().toString());
+                    intent.putExtra("dataPhoneNumber",mEtPhoneNumber.getText().toString());
                     startActivity(intent);
                 }
             }
@@ -40,7 +57,7 @@ public class PhoneNumberActivity extends AppCompatActivity {
             private boolean isCredentialValid() {
                 boolean isDataValid = true;
                 if (mEtPhoneNumber.getText().toString().length()!=10){
-                    mEtindia.setError("please check your number");
+                    mEtPhoneNumber.setError("please check your number");
                     isDataValid = false;
                 }
                 return isDataValid;

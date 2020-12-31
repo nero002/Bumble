@@ -55,27 +55,24 @@ public class SwipeWomenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //for filter button
+
         iBtnFilter.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View view) {
+                Intent intent = new Intent(SwipeWomenActivity.this, FilterActivity.class);
+                startActivity(intent);
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // Profile visit
+        iBtnUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SwipeWomenActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

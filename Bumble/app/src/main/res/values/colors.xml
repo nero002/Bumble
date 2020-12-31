@@ -11,4 +11,8 @@
     <color name="offwhite">#FFF7F7</color>
     <color name="yellowish">#F9E79F</color>
     <color name="yellowishagain">#F3DE8C</color>
+    <color name="Fb_color">#4267B2</color>
+    <color name="background_Fb">#F0F2F5</color>
+    <color name="login_fb">#166FE5</color>
+    <color name="create_not_now">#065381</color>
 </resources>

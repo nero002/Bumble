@@ -10,7 +10,9 @@
     <dimen name="dp_7">7dp</dimen>
     <dimen name="dp_8">8dp</dimen>
     <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_9.8">9.5dp</dimen>
     <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_10.5">10.7dp</dimen>
     <dimen name="dp_11">11dp</dimen>
     <dimen name="dp_12">12dp</dimen>
     <dimen name="dp_13">13dp</dimen>
@@ -111,6 +113,7 @@
     <dimen name="sp_49">49sp</dimen>
     <dimen name="sp_50">50sp</dimen>
     <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
     <dimen name="dp_180">180dp</dimen>
 
 
