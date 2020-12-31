@@ -63,13 +63,5 @@ public class PhoneNumberActivity extends AppCompatActivity {
                 return isDataValid;
             }
         });
-        
-
-
-
-
-
-
-
     }
 }
