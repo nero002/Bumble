@@ -206,6 +206,7 @@
     <style name="SettingsTextviewWithBackground">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
         <item name="android:background">@drawable/settings_rectangle_all</item>
         <item name="android:layout_marginLeft">@dimen/dp_25</item>
         <item name="android:layout_marginRight">@dimen/dp_25</item>
@@ -228,5 +229,26 @@
     <style name="image_view_Scroll_salman">
 
 
+    </style>
+
+    <style name="SettingsButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="android:background">@drawable/settings_rectangle_all</item>
+        <item name="android:paddingLeft">@dimen/dp_60</item>
+        <item name="android:paddingRight">@dimen/dp_60</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="settingsheader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_60</item>
+        <item name="android:background">@drawable/rectangle_settings_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_20</item>
     </style>
 </resources>

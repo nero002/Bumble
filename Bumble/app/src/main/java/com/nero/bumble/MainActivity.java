@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_swipe_man);
 
 //        new Handler().postDelayed(new Runnable() {
 //
