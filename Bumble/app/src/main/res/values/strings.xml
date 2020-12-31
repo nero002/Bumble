@@ -125,5 +125,19 @@
     <string name="jhakkas">Jhakkas!</string>
     <string name="beeline">Beeline</string>
     <string name="contact_faq"><![CDATA[Contact & FAQ]]></string>
+    <string name="login_desc">Login in to your Facebook account to \n connect to Bumble</string>
+    <string name="create_account">Create account</string>
+    <string name="forgotten_password_help_center">Forgotten Password? Help Center</string>
+    <string name="log_in">Log In</string>
+    <string name="hint_email_phone__number">Mobile number or email address</string>
+    <string name="facebook_password">Facebook password</string>
+    <string name="facebook">facebook</string>
+    <string name="men">Men</string>
+    <string name="advanced_filters">Advanced Filters</string>
+    <string name="up_to_30_kilometers_away">Up to 30 kilometers away</string>
+    <string name="distance">Distance</string>
+    <string name="age">Age</string>
+    <string name="everyone">Everyone</string>
+    <string name="women">Women</string>
 
 </resources>

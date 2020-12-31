@@ -111,6 +111,7 @@
     <dimen name="sp_49">49sp</dimen>
     <dimen name="sp_50">50sp</dimen>
     <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
 
 
 </resources>

@@ -78,7 +78,7 @@
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:text="@string/text_lock"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/mimgbtnclick"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton

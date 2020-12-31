@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/bumble_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
-        <activity android:name=".BeelineActivity"></activity>
+        <activity android:name=".FilterActivity"></activity>
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".BeelineActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity" />
-        <activity android:name=".SwipeWomenActivity" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SwipeWomenActivity"/>
+        <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
@@ -36,6 +38,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
