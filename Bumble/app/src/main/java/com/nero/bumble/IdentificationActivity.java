@@ -8,7 +8,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class IdentificationActivity extends AppCompatActivity {
-    private ImageButton iBtnHowDoYouIdentify;
+    private ImageButton iBtnForHowDoYouIdentify;
+    public int genderFromIdentification;
+    private boolean isSelected=false;
+    private ImageButton iBtnManIdentity, iBtnWomenIdentity, iBtnNonBinaryIdentity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +22,53 @@ public class IdentificationActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        iBtnHowDoYouIdentify = findViewById(R.id.iBtnHowDoYouIdentify);
-        iBtnHowDoYouIdentify.setOnClickListener(new View.OnClickListener() {
+        iBtnForHowDoYouIdentify = findViewById(R.id.iBtnForHowDoYouIdentify);
+        iBtnManIdentity = findViewById(R.id.iBtnManIdentity);
+        iBtnWomenIdentity = findViewById(R.id.iBtnWomenIdentity);
+        iBtnNonBinaryIdentity = findViewById(R.id.iBtnNonBinaryIdentity);
+
+        iBtnManIdentity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                iBtnForHowDoYouIdentify.setBackgroundResource(R.drawable.circle_btn_bg);
+                iBtnManIdentity.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
+                iBtnWomenIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                iBtnNonBinaryIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                isSelected=true;
+                genderFromIdentification=1;
+            }
+        });
+        iBtnWomenIdentity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                iBtnForHowDoYouIdentify.setBackgroundResource(R.drawable.circle_btn_bg);
+                iBtnWomenIdentity.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
+                iBtnManIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                iBtnNonBinaryIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                genderFromIdentification=2;
+                isSelected=true;
+            }
+        });
+        iBtnNonBinaryIdentity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                iBtnForHowDoYouIdentify.setBackgroundResource(R.drawable.circle_btn_bg);
+                iBtnNonBinaryIdentity.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
+                iBtnManIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                iBtnWomenIdentity.setBackgroundResource(R.drawable.ic_radioonenne);
+                genderFromIdentification=3;
+                isSelected=true;
+
+            }
+        });
+
+        iBtnForHowDoYouIdentify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IdentificationActivity.this,ModeToGetStartedActivity.class);
-                startActivity(intent);
+               Intent intent= new Intent(IdentificationActivity.this, ModeToGetStartedActivity.class);
+               if (isSelected){
+                   startActivity(intent);
+               }
             }
         });
 
