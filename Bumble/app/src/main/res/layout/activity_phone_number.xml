@@ -39,19 +39,20 @@
         app:layout_constraintTop_toBottomOf="@id/mTvNumber" />
 
 
-    <EditText
+    <TextView
         android:id="@+id/mEtindia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_40"
+        android:gravity="center_vertical"
         android:layout_marginTop="@dimen/dp_40"
         android:background="@drawable/rectangle_phonenumber_bg"
         android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
         android:drawablePadding="@dimen/dp_10"
-        android:hint="@string/in_91"
-        android:padding="@dimen/dp_10"
+        android:text="@string/in_91"
+        android:padding="@dimen/dp_9.8"
         app:layout_constraintEnd_toStartOf="@+id/mEtPhoneNumber"
-        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvReal" />
 
@@ -61,41 +62,48 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_40"
         android:layout_marginEnd="@dimen/dp_40"
+        android:inputType="phone"
+        android:layout_marginStart="@dimen/dp_7"
         android:background="@drawable/rectangle_phonenumber_bg"
         android:hint="@string/phone_number"
         android:paddingLeft="@dimen/dp_10"
-        android:paddingTop="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10.5"
         android:paddingRight="@dimen/dp_80"
-        android:paddingBottom="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10.5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/mEtindia"
         app:layout_constraintTop_toBottomOf="@id/mTvReal" />
 
 
-    <TextView
-        android:id="@+id/tvlock"
-        style="@style/Bottom_TextView"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
-        android:text="@string/text_lock"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/mimgbtnclick"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageButton
         android:id="@+id/mimgbtnclick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@id/tvlock"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_20"
         android:background="@drawable/circle_phonenumber_bg"
-        android:padding="@dimen/dp_10"
-        android:src="@drawable/ic_baseline_navigate_next_24"
-        app:layout_constraintBottom_toBottomOf="@+id/tvlock"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvlock" />
+        android:padding="@dimen/dp_12"
+        android:src="@drawable/ic_baseline_keyboard_white_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="@dimen/dp_10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_14"
+        android:text="@string/we_never_sgare_this_with_anyone_and_it_won_t_be_on_your_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="@dimen/dp_9"
+        app:layout_constraintEnd_toStartOf="@+id/mimgbtnclick"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
