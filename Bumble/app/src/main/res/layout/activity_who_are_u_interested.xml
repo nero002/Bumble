@@ -48,13 +48,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvchangelater" />
-    <RadioButton
-        style="@style/RadioBtn_started"
-        android:background="@drawable/ic_right_tick"
-        android:button="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/interestedinmen"
-        app:layout_constraintEnd_toEndOf="@+id/interestedinmen"
-        app:layout_constraintTop_toTopOf="@+id/interestedinmen" />
 
     <TextView
         android:id="@+id/interestedinwomen"
@@ -63,11 +56,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/interestedinmen" />
-    <RadioButton
-        style="@style/RadioBtn_started"
-        app:layout_constraintBottom_toBottomOf="@+id/interestedinwomen"
-        app:layout_constraintEnd_toEndOf="@+id/interestedinwomen"
-        app:layout_constraintTop_toTopOf="@+id/interestedinwomen" />
 
     <TextView
         android:id="@+id/everyone"
@@ -76,36 +64,62 @@
         android:text="@string/i_m_interested_in_everyone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/interestedinwomen" />
-    <RadioButton
-        style="@style/RadioBtn_started"
-        app:layout_constraintBottom_toBottomOf="@+id/everyone"
-        app:layout_constraintEnd_toEndOf="@+id/everyone"
-        app:layout_constraintTop_toTopOf="@+id/everyone" />
 
     <TextView
         android:id="@+id/eye"
         style="@style/Bottom_TextView"
         android:drawableStart="@drawable/ic_baseline_remove_red_eye_24"
         android:text="@string/men_interested_in_women"
-        android:textSize="@dimen/sp_12"
+        android:textSize="@dimen/sp_13"
+        android:layout_marginEnd="@dimen/dp_10"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mimgbtnclick"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/mimgbtnclick"
+        android:id="@+id/iBtnNextForInterseted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_20"
-        android:layout_marginBottom="@dimen/dp_40"
-        android:background="@drawable/circle_btn_bg"
-        android:padding="@dimen/dp_10"
-        android:src="@drawable/ic_baseline_navigate_next_24"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@drawable/circle_phonenumber_bg"
+        android:padding="@dimen/dp_12"
+        android:src="@drawable/ic_change_right_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <ImageButton
+        android:id="@+id/iBtnMenInterested"
+        android:layout_width="wrap_content"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/interestedinmen"
+        app:layout_constraintEnd_toEndOf="@+id/interestedinmen"
+        app:layout_constraintTop_toTopOf="@+id/interestedinmen"
+        app:srcCompat="@drawable/ic_radioonenne" />
 
+    <ImageButton
+        android:id="@+id/iBtnWomenInterested"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/interestedinwomen"
+        app:layout_constraintEnd_toEndOf="@+id/interestedinwomen"
+        app:layout_constraintTop_toTopOf="@+id/interestedinwomen"
+        app:srcCompat="@drawable/ic_radioonenne" />
 
-
+    <ImageButton
+        android:id="@+id/iBtnEveryoneInterested"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/everyone"
+        app:layout_constraintEnd_toEndOf="@+id/everyone"
+        app:layout_constraintTop_toTopOf="@+id/everyone"
+        app:srcCompat="@drawable/ic_radioonenne" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

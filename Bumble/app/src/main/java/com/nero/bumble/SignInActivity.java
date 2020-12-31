@@ -55,7 +55,7 @@ public class SignInActivity extends AppCompatActivity {
         mtvTerms_of_services.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://https://bumble.com/en/terms/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bumble.com/en/terms/"));
                 startActivity(intent);
             }
         });

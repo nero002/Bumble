@@ -300,7 +300,7 @@
                                     android:layout_height="600dp"
                                     android:layout_marginBottom="@dimen/dp_10"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/alia_one" />
+                                    android:src="@drawable/ananya_one" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -308,7 +308,7 @@
                                     android:layout_gravity="bottom"
                                     android:layout_marginStart="@dimen/dp_20"
                                     android:layout_marginBottom="@dimen/dp_30"
-                                    android:text="A,27"
+                                    android:text="A,22"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/sp_25"
                                     android:textStyle="bold" />
@@ -342,14 +342,14 @@
                             android:layout_height="500dp"
                             android:layout_marginTop="@dimen/dp_2"
                             android:scaleType="fitXY"
-                            android:src="@drawable/alia_three" />
+                            android:src="@drawable/ananya_three" />
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="500dp"
                             android:layout_marginTop="@dimen/dp_2"
                             android:scaleType="fitXY"
-                            android:src="@drawable/alia_two" />
+                            android:src="@drawable/ananya_two" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -474,7 +474,7 @@
                                     android:layout_gravity="bottom"
                                     android:layout_marginStart="@dimen/dp_20"
                                     android:layout_marginBottom="@dimen/dp_30"
-                                    android:text="K,62"
+                                    android:text="K,37"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/sp_25"
                                     android:textStyle="bold" />
