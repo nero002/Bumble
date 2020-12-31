@@ -71,7 +71,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mBtnAgree"
         style="@style/GotItButton"
         android:background="@drawable/rectagle_button_yellow_bg"
         android:text="@string/i_agree"
