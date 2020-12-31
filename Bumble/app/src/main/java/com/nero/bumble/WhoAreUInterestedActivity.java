@@ -8,8 +8,9 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class WhoAreUInterestedActivity extends AppCompatActivity {
-    private ImageButton iBtnManInterested, iBtnWomanInterested, iBtnEveryoneInterested,iBtnNextForInterseted;
-    private boolean isSelected=false;
+    private ImageButton iBtnManInterested, iBtnWomanInterested, iBtnEveryoneInterested, iBtnNextForInterseted;
+    private boolean isSelected = false;
+    private String interestIn = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +21,9 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
 
     private void initializeViewsAndListeners() {
         iBtnNextForInterseted = findViewById(R.id.iBtnNextForInterseted);
-        iBtnManInterested=findViewById(R.id.iBtnMenInterested);
-        iBtnWomanInterested= findViewById(R.id.iBtnWomenInterested);
-        iBtnEveryoneInterested=findViewById(R.id.iBtnEveryoneInterested);
+        iBtnManInterested = findViewById(R.id.iBtnMenInterested);
+        iBtnWomanInterested = findViewById(R.id.iBtnWomenInterested);
+        iBtnEveryoneInterested = findViewById(R.id.iBtnEveryoneInterested);
 
         iBtnManInterested.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +32,8 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
-                isSelected=true;
+                isSelected = true;
+                interestIn = "man";
             }
         });
 
@@ -42,7 +44,8 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
-                isSelected=true;
+                isSelected = true;
+                interestIn = "woman";
             }
         });
 
@@ -53,7 +56,7 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_radioonenne);
-                isSelected=true;
+                isSelected = true;
 
             }
         });
@@ -61,8 +64,9 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
         iBtnNextForInterseted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(WhoAreUInterestedActivity.this,RecoveryEmailidActivity.class);
-                if (isSelected){
+                Intent intent = new Intent(WhoAreUInterestedActivity.this, RecoveryEmailidActivity.class);
+                intent.putExtra("interestData", interestIn);
+                if (isSelected) {
                     startActivity(intent);
                 }
             }
