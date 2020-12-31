@@ -125,7 +125,35 @@
     <string name="jhakkas">Jhakkas!</string>
     <string name="beeline">Beeline</string>
     <string name="contact_faq"><![CDATA[Contact & FAQ]]></string>
+    <string name="logout">Log out</string>
+    <string name="delete">Delete</string>
+    <string name="btndelete">Delete</string>
+    <string name="match_queue">Match Queue</string>
+    <string name="conversations">Conversations</string>
+    <string name="recent">Recent</string>
+    <string name="get_to_the_front_of_the_queue">Get to the front of the queue</string>
+    <string name="be_seen_by_more_people_in_spotlight">Be seen by more people in spotlight</string>
+    <string name="complete_your_profile">Complete your profile</string>
+    <string name="completeprofile">Make sure to complete your profilr</string>
+    <string name="boom">BOOM!</string>
+    <string name="buzzworthy">#buzzworthy</string>
+    <string name="holdconvo">"You're in control of the conversation.Youhave 24 hours to make the first move."</string>
+    <string name="introduce_yourself">Introduce yourself....</string>
+
+    <string name="login_desc">Login in to your Facebook account to \n connect to Bumble</string>
+    <string name="create_account">Create account</string>
+    <string name="forgotten_password_help_center">Forgotten Password? Help Center</string>
+    <string name="log_in">Log In</string>
+    <string name="hint_email_phone__number">Mobile number or email address</string>
+    <string name="facebook_password">Facebook password</string>
+    <string name="facebook">facebook</string>
+    <string name="men">Men</string>
+    <string name="advanced_filters">Advanced Filters</string>
+    <string name="up_to_30_kilometers_away">Up to 30 kilometers away</string>
+    <string name="distance">Distance</string>
+    <string name="age">Age</string>
+    <string name="everyone">Everyone</string>
+    <string name="women">Women</string>
     <string name="upgrade_to_bumble_boost_to_see_the_1_bee_who_s_already_liked_in_your_in_your_beeline">Upgrade to Bumble Boost to see the 1 bee who\'s already liked in your in your Beeline</string>
     <string name="we_never_sgare_this_with_anyone_and_it_won_t_be_on_your_profile">We never sgare this with anyone and it won\'t be on your profile</string>
-
 </resources>

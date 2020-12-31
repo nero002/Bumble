@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/bumble_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
-        <activity android:name=".BeelineActivity"></activity>
+        <activity android:name=".BoomActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".BeelineActivity" />
+        <activity android:name=".FilterActivity"></activity>
+        <activity android:name=".FacebookActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity" />
@@ -18,23 +22,15 @@
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
-        <activity android:name=".WhoAreUInterestedActivity">
-
-        </activity>
+        <activity android:name=".WhoAreUInterestedActivity"></activity>
         <activity android:name=".firstMoveActivity"></activity>
-        <activity android:name=".IdentificationActivity">
-
-        </activity>
+        <activity android:name=".IdentificationActivity"></activity>
         <activity android:name=".FirstPhotoActivity"></activity>
         <activity android:name=".RecoveryEmailidActivity" />
-        <activity android:name=".BirthdayActivity">
-
-        </activity>
+        <activity android:name=".BirthdayActivity" ></activity>
         <activity android:name=".FirstNameActivity"></activity>
         <activity android:name=".OTPActivity"></activity>
-        <activity android:name=".ModeToGetStartedActivity">
-
-        </activity>
+        <activity android:name=".ModeToGetStartedActivity"></activity>
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
@@ -44,6 +40,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

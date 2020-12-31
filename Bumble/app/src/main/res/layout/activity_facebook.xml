@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_Fb"
+    tools:context=".FacebookActivity">
+
+
+
+    <TextView
+        android:id="@+id/fb_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Fb_color"
+        android:gravity="center"
+        android:padding="@dimen/dp_20"
+        android:text="@string/facebook"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fb_heading"
+        app:srcCompat="@drawable/fb_logo_bumble" />
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login in to your Facebook account to \n connect to Bumble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/email_phone_number"
+        style="@style/EditText_login_fb_page"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rectangle_fb_login_bg"
+        android:hint="@string/hint_email_phone__number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_text" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/EditText_login_fb_page"
+        android:background="@drawable/fb_login_rectangle_bottom_round_bg"
+        android:hint="@string/facebook_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_phone_number" />
+
+    <Button
+        android:id="@+id/login_btn"
+        style="@style/EditText_login_fb_page"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/fb_login_btn_bg"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/create_account"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/create_not_now"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+    <TextView
+        android:id="@+id/notNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_now"
+        android:textColor="@color/create_not_now"
+        android:layout_marginTop="@dimen/dp_5"
+        app:layout_constraintEnd_toEndOf="@+id/createAccount"
+        app:layout_constraintStart_toStartOf="@+id/createAccount"
+        app:layout_constraintTop_toBottomOf="@+id/createAccount" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotten_password_help_center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="#5497BF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notNow" />
+
+    <ImageView
+        android:id="@+id/bottom_fb"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgot_password"
+        app:srcCompat="@drawable/fb_bottom_languages" />
+
+    <ImageButton
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Fb_color"
+        app:layout_constraintBottom_toBottomOf="@id/fb_heading"
+        app:layout_constraintStart_toStartOf="@id/fb_heading"
+        app:layout_constraintTop_toTopOf="@id/fb_heading"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_close_fb_btn__1_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

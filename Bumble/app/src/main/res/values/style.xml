@@ -222,6 +222,7 @@
     <style name="SettingsTextviewWithBackground">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
         <item name="android:background">@drawable/settings_rectangle_all</item>
         <item name="android:layout_marginLeft">@dimen/dp_25</item>
         <item name="android:layout_marginRight">@dimen/dp_25</item>
@@ -241,8 +242,71 @@
 
 </style>
 
-    <style name="image_view_Scroll_salman">
+
+    <!--fbLoginpageEdittext-->
+
+    <style name="EditText_login_fb_page">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_15</item>
+        <item name="android:layout_marginEnd">@dimen/dp_15</item>
+        <item name="android:padding">@dimen/dp_20</item>
 
 
     </style>
+
+
+    <!--    filter-->
+
+
+    <style name="filter_linearlayout">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_5</item>
+        <item name="android:background">@drawable/filter_rectangle_age</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/dp_20</item>
+
+    </style>
+
+    <style name="SettingsButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="android:background">@drawable/settings_rectangle_all</item>
+        <item name="android:paddingLeft">@dimen/dp_60</item>
+        <item name="android:paddingRight">@dimen/dp_60</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="settingsheader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_60</item>
+        <item name="android:background">@drawable/rectangle_settings_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="seekbar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:progressTint">@color/yellow_bumble</item>
+        <item name="android:padding">@dimen/dp_10</item>
+
+    </style>
+
+    <style name="TextView_seekbar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 </resources>
+

@@ -1,11 +1,11 @@
 package com.nero.bumble;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class EnableLocationActivity extends AppCompatActivity {
 
@@ -25,7 +25,18 @@ public class EnableLocationActivity extends AppCompatActivity {
         mBtnNotnow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EnableLocationActivity.this,ModeToGetStartedActivity.class);
+                Intent intent = new Intent(EnableLocationActivity.this, ModeToGetStartedActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //after click on enable
+
+        mBtnEnableLocation = findViewById(R.id.mBtnEnableLocation);
+        mBtnEnableLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EnableLocationActivity.this, ModeToGetStartedActivity.class);
                 startActivity(intent);
             }
         });
