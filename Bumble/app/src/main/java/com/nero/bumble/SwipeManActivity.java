@@ -11,13 +11,23 @@ public class SwipeManActivity extends AppCompatActivity {
     private ImageButton miBtnFilter;
     private ImageButton miBtnUser;
     private ImageButton miBtnHeart;
+    private ImageButton iBtnChat;
+    private ImageButton imageButton9;
+    private ImageButton iBtnStarButtonForSwapWomenP1;
+    private ImageButton iBtnCrossForSwapWomenP1;
+    private ImageButton iBtnTickForSwipeWomenP1;
+    private ImageButton iBtnStarButtonForSwapWomenP2;
+    private ImageButton iBtnCrossForSwapWomenP2;
+    private ImageButton iBtnTickForSwipeWomenP2;
+    private ImageButton iBtnStarButtonForSwapWomenP3;
+    private ImageButton iBtnCrossForSwapWomenP3;
+    private ImageButton iBtnTickForSwipeWomenP3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_swipe_man);
         initializeViewsAndListeners();
-
     }
 
     private void initializeViewsAndListeners() {
@@ -54,6 +64,36 @@ public class SwipeManActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //chat button
+        iBtnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,ChatActivity.class);
+                startActivity(intent);
+            }
+        });
+        //same activity button
+        imageButton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+        //star button for swipe man activity
+        iBtnStarButtonForSwapWomenP1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
 
     }
 }
