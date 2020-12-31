@@ -35,7 +35,7 @@ public class SignInActivity extends AppCompatActivity {
         mBtnContinueFromFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignInActivity.this, EnableLocationActivity.class);
+                Intent intent = new Intent(SignInActivity.this, FacebookActivity.class);
                 startActivity(intent);
             }
         });

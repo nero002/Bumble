@@ -12,7 +12,7 @@
         <activity android:name=".BoomActivity"></activity>
         <activity android:name=".ChatActivity" />
         <activity android:name=".BeelineActivity" />
-        <activity android:name=".FilterActivity"></activity>
+        <activity android:name=".FilterActivity" />
         <activity android:name=".FacebookActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
@@ -23,18 +23,13 @@
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
         <activity android:name=".WhoAreUInterestedActivity" />
-        <activity android:name=".firstMoveActivity">
-        </activity>
+        <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
-        <activity android:name=".FirstPhotoActivity">
-        </activity>
+        <activity android:name=".FirstPhotoActivity" />
         <activity android:name=".RecoveryEmailidActivity" />
-        <activity android:name=".BirthdayActivity" >
-        </activity>
-        <activity android:name=".FirstNameActivity">
-        </activity>
-        <activity android:name=".OTPActivity">
-        </activity>
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".FirstNameActivity" />
+        <activity android:name=".OTPActivity" />
         <activity android:name=".ModeToGetStartedActivity" />
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
