@@ -15,27 +15,22 @@
         <activity android:name=".FilterActivity"></activity>
         <activity android:name=".FacebookActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".BeforeYouSwipe">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity" />
-        <activity android:name=".SwipeWomenActivity"></activity>
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SwipeWomenActivity" />
+        <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
-        <activity android:name=".WhoAreUInterestedActivity"></activity>
-        <activity android:name=".firstMoveActivity"></activity>
-        <activity android:name=".IdentificationActivity"></activity>
-        <activity android:name=".FirstPhotoActivity"></activity>
+        <activity android:name=".WhoAreUInterestedActivity" />
+        <activity android:name=".firstMoveActivity"/>
+        <activity android:name=".IdentificationActivity" />
+        <activity android:name=".FirstPhotoActivity"/>
         <activity android:name=".RecoveryEmailidActivity" />
-        <activity android:name=".BirthdayActivity" ></activity>
-        <activity android:name=".FirstNameActivity"></activity>
-        <activity android:name=".OTPActivity"></activity>
-        <activity android:name=".ModeToGetStartedActivity"></activity>
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".FirstNameActivity"/>
+        <activity android:name=".OTPActivity"/>
+        <activity android:name=".ModeToGetStartedActivity" />
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">

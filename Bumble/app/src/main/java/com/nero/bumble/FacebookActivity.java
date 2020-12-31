@@ -41,8 +41,12 @@ public class FacebookActivity extends AppCompatActivity {
         mbtnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
-                startActivity(intent);
+
+                if(isCredentialValid()){
+                    Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
+                    startActivity(intent);
+                }
+
             }
 
         });
