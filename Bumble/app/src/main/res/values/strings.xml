@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bumble</string>
     <string name="text_header">What </string>
-    <string name="Whats_your_number">What&amp;s your number?</string>
+    <string name="Whats_your_number">"What's your number?"</string>
     <string name="text_real">We protect our community by making sure everyone on Bumble is real</string>
     <string name="text_lock">"We never share this with anyone and it won't be on your profile"</string>
     <string name="in_91">IN +91</string>
@@ -41,13 +41,13 @@
     <string name="messages_aren_t_exchanged">"messages aren't exchanged"</string>
     <string name="not_sure_waht_to_upload">Not sure what to upload?</string>
     <string name="check_out_our_guidelines"><u>Check out our guidelines</u></string>
-    <string name="what_s_your_first">What &amp;s your first</string>
+    <string name="what_s_your_first">"What's your first"</string>
     <string name="you_wont_t_able_to_change_this_later">"You wont't able to change this later"</string>
     <string name="this_will_shown_on_your_profile">This will shown on your profile</string>
     <string name="year">Year</string>
     <string name="day">Day</string>
     <string name="month">Month</string>
-    <string name="when_your">When&amp;s your</string>
+    <string name="when_your">"When's your"</string>
     <string name="we_only_show_your_to_potential_matches">"We only show your to potential matches,\n not your birthday"</string>
     <string name="what_s_your_email">What &amp;s your email</string>
     <string name="address">address?</string>
@@ -103,6 +103,20 @@
     <string name="i_m_interested_in_everyone">I\'m interested in everyone</string>
     <string name="we_only_show_you_to_men_interested_in_women">We only show you to men interested in women</string>
     <string name="men_interested_in_women">We only show you to men interested in women</string>
+    <string name="name">name?</string>
+    <string name="add_your_first_name">Add your first name</string>
+    <string name="woman2">Woman</string>
+    <string name="man2">Man</string>
+    <string name="non_binary2">Non-binary</string>
+    <string name="more_gender_options2">More gender options</string>
+    <string name="settings">Settings</string>
+    <string name="choose_mode">Choose mode</string>
+    <string name="date_mode">Date mode</string>
+    <string name="hide">Hide your profile in Date and just use BFF or Bizz.If you do this,you\'ll lose your connections and chats in Date.</string>
+    <string name="snooze">Snooze</string>
+    <string name="temporaryhide">Temporarily hide your profile from all modes.If you do this,you won\'t lose any connections or chats.</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="login_methods">Login methods</string>
     <string name="tap_to_edit_profile">Tap to edit profile</string>
     <string name="get_the_bumble_boost">Get the Bumble Boost</string>
     <string name="see_who_liked_you_by_upgrading_to_bumble_boost">See who liked you by upgrading to Bumble Boost</string>
