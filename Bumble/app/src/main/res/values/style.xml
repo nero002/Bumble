@@ -55,16 +55,16 @@
     </style>
 
     <style name="ViewViewBackground">
-        <item name="android:layout_width">@dimen/dp_47</item>
-        <item name="android:layout_height">@dimen/dp_47</item>
+        <item name="android:layout_width">@dimen/dp_48</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
         <item name="android:layout_marginEnd">@dimen/dp_20</item>
-        <item name="android:layout_marginBottom">@dimen/dp_40</item>
+        <item name="android:layout_marginBottom">@dimen/dp_20</item>
         <item name="android:background">@drawable/circle_phonenumber_bg</item>
     </style>
 
     <style name="NextImageButtonBackground">
-        <item name="android:layout_width">@dimen/dp_22</item>
-        <item name="android:layout_height">@dimen/dp_34</item>
+        <item name="android:layout_width">@dimen/dp_24</item>
+        <item name="android:layout_height">@dimen/dp_24</item>
         <item name="android:background">@color/black</item>
     </style>
 
