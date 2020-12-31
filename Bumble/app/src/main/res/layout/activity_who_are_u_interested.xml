@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/men"
+        android:id="@+id/interestedinmen"
         style="@style/TextView_1RadioBtn"
         android:text="@string/i_m_interested_in_men"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,22 +52,22 @@
         style="@style/RadioBtn_started"
         android:background="@drawable/ic_right_tick"
         android:button="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/men"
-        app:layout_constraintEnd_toEndOf="@+id/men"
-        app:layout_constraintTop_toTopOf="@+id/men" />
+        app:layout_constraintBottom_toBottomOf="@+id/interestedinmen"
+        app:layout_constraintEnd_toEndOf="@+id/interestedinmen"
+        app:layout_constraintTop_toTopOf="@+id/interestedinmen" />
 
     <TextView
-        android:id="@+id/women"
+        android:id="@+id/interestedinwomen"
         style="@style/TextView_1RadioBtn"
         android:text="@string/i_m_interested_in_women"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/men" />
+        app:layout_constraintTop_toBottomOf="@+id/interestedinmen" />
     <RadioButton
         style="@style/RadioBtn_started"
-        app:layout_constraintBottom_toBottomOf="@+id/women"
-        app:layout_constraintEnd_toEndOf="@+id/women"
-        app:layout_constraintTop_toTopOf="@+id/women" />
+        app:layout_constraintBottom_toBottomOf="@+id/interestedinwomen"
+        app:layout_constraintEnd_toEndOf="@+id/interestedinwomen"
+        app:layout_constraintTop_toTopOf="@+id/interestedinwomen" />
 
     <TextView
         android:id="@+id/everyone"
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/i_m_interested_in_everyone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/women" />
+        app:layout_constraintTop_toBottomOf="@+id/interestedinwomen" />
     <RadioButton
         style="@style/RadioBtn_started"
         app:layout_constraintBottom_toBottomOf="@+id/everyone"

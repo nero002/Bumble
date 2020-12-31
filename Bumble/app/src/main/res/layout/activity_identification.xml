@@ -42,36 +42,53 @@
         app:layout_constraintTop_toBottomOf="@+id/mTvIdentify" />
 
     <TextView
-        android:id="@+id/mTvWoman"
-        style="@style/SignUpEditText"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_35"
-        android:background="@drawable/rectangle_phonenumber_bg"
+        android:id="@+id/men"
+        style="@style/TextView_1RadioBtn"
         android:text="@string/woman"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mTvwelcome" />
 
-    <TextView
+    <RadioButton
+        style="@style/RadioBtn_started"
+        android:background="@drawable/ic_right_tick"
+        android:button="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/men"
+        app:layout_constraintEnd_toEndOf="@+id/men"
+        app:layout_constraintTop_toTopOf="@+id/men" />
 
-        android:id="@+id/mTvMan"
-        style="@style/SignUpEditText"
+    <TextView
+        android:id="@+id/women"
+        style="@style/TextView_1RadioBtn"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_20"
         android:background="@drawable/rectangle_phonenumber_bg"
-        android:drawableRight="@drawable/ic_right_tick"
         android:padding="@dimen/dp_20"
         android:text="@string/man"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvWoman" />
+        app:layout_constraintTop_toBottomOf="@+id/men" />
+
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/women"
+        app:layout_constraintEnd_toEndOf="@+id/women"
+        app:layout_constraintTop_toTopOf="@+id/women" />
 
     <TextView
-        android:id="@+id/mTvNonBinary"
-        style="@style/SignUpEditText"
+        android:id="@+id/everyone"
+        style="@style/TextView_1RadioBtn"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="@dimen/dp_20"
-        android:drawableRight="@drawable/ic_right_tick"
         android:text="@string/non_binary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvMan" />
+        app:layout_constraintTop_toBottomOf="@+id/women" />
+
+    <RadioButton
+        style="@style/RadioBtn_started"
+        app:layout_constraintBottom_toBottomOf="@+id/everyone"
+        app:layout_constraintEnd_toEndOf="@+id/everyone"
+        app:layout_constraintTop_toTopOf="@+id/everyone" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,7 +101,20 @@
         android:textColor="@color/black"
         android:textSize="@dimen/sp_18"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvNonBinary" />
+        app:layout_constraintTop_toBottomOf="@+id/everyone" />
+
+    <ImageButton
+        android:id="@+id/iBtnHowDoYouIdentify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/circle_phonenumber_bg"
+        android:padding="@dimen/dp_10"
+        android:src="@drawable/ic_baseline_navigate_next_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/circle_phonenumber_bg"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -96,15 +126,6 @@
         android:src="@drawable/ic_baseline_navigate_next_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="39dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/mTvWoman"
-        app:layout_constraintStart_toStartOf="@+id/mTvWoman" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

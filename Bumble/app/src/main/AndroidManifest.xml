@@ -14,9 +14,10 @@
         <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity" />
         <activity android:name=".SwipeWomenActivity" />
-        <activity android:name=".connectActivity" />
+        <activity android:name=".SettingActivity"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
+        <activity android:name=".connectActivity" />
         <activity android:name=".WhoAreUInterestedActivity" />
         <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />

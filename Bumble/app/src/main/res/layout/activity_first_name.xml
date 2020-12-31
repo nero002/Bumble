@@ -17,7 +17,7 @@
     <TextView
         android:id="@+id/textView9"
         style="@style/TitleTextViewBackground2ndLine"
-        android:text="name?"
+        android:text="@string/name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -49,7 +49,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/edit_text_bg"
             android:ems="10"
-            android:hint="Add your first name"
+            android:hint="@string/add_your_first_name"
             android:inputType="textPersonName"
             android:padding="@dimen/dp_10"
             app:layout_constraintEnd_toEndOf="parent"
