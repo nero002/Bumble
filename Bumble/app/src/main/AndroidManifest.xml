@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/bumble_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bumble">
+        <activity android:name=".BoomActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".BeelineActivity" />
         <activity android:name=".FilterActivity"></activity>
         <activity android:name=".FacebookActivity" />
-        <activity android:name=".BeelineActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity" />
         <activity android:name=".SwipeWomenActivity" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
@@ -28,7 +30,6 @@
         </activity>
         <activity android:name=".RecoveryEmailidActivity" />
         <activity android:name=".BirthdayActivity" >
-
         </activity>
         <activity android:name=".FirstNameActivity">
         </activity>

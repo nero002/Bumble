@@ -7,99 +7,110 @@
     tools:context=".SettingActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/settings"
         android:id="@+id/mTvsettings"
-        android:gravity="center"
-        android:textSize="@dimen/dp_20"
-        android:textColor="@color/black"
+        style="@style/settingsheader"
+        android:text="@string/settings"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:background="@drawable/rectangle_settings_bg"
-        android:layout_height="@dimen/dp_60"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="@+id/mTvsettings"
-        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
         android:layout_marginBottom="@dimen/dp_20"
-        android:layout_marginLeft="@dimen/dp_20"
-        android:layout_height="wrap_content"/>
+        android:drawableStart="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintBottom_toBottomOf="@+id/mTvsettings"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
+        android:id="@+id/mTvChooseMode"
         style="@style/SettingsTextviewWithBackground"
+        android:text="@string/choose_mode"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/mTvChooseMode"
-        android:text="@string/choose_mode"
         app:layout_constraintTop_toBottomOf="@+id/mTvsettings"
-        android:drawableRight="@drawable/ic_baseline_navigate_next_24" />
+        app:drawableRightCompat="@drawable/ic_baseline_navigate_next_24" />
 
     <TextView
+        android:id="@+id/mTvDatemode"
         style="@style/SettingsTextviewWithBackground"
         android:text="@string/date_mode"
-        android:id="@+id/mTvDatemode"
-        app:layout_constraintTop_toBottomOf="@+id/mTvChooseMode"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvChooseMode"
+        app:drawableRightCompat="@drawable/switchbutton" />
 
     <TextView
+        android:id="@+id/mTvhideText"
         android:layout_width="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvDatemode"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_33"
         android:text="@string/hide"
         android:textSize="@dimen/sp_14"
-        android:id="@+id/mTvhideText"
-        android:layout_marginRight="@dimen/dp_33"
-        android:layout_marginLeft="@dimen/dp_40"
-        android:layout_marginTop="@dimen/dp_14"
-        android:layout_height="wrap_content"
-        />
-    <TextView
-      style="@style/SettingsTextviewWithBackground"
-        app:layout_constraintTop_toBottomOf="@+id/mTvhideText"
-        android:text="@string/snooze"
-        android:id="@+id/mTvsnooze"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/mTvDatemode" />
 
     <TextView
+        android:id="@+id/mTvsnooze"
+        style="@style/SettingsTextviewWithBackground"
+        android:text="@string/snooze"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvhideText" />
+
+    <TextView
+        android:id="@+id/mTvTemporaryhideText"
         android:layout_width="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvsnooze"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_33"
         android:text="@string/temporaryhide"
         android:textSize="@dimen/sp_14"
-        android:id="@+id/mTvTemporaryhideText"
-        android:layout_marginRight="@dimen/dp_33"
-        android:layout_marginLeft="@dimen/dp_40"
-        android:layout_marginTop="@dimen/dp_14"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintTop_toBottomOf="@+id/mTvsnooze" />
 
     <TextView
-        style="@style/SettingsTextviewWithBackground"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:id="@+id/mTvnotificationsettings"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvTemporaryhideText"
-        android:text="@string/notification_settings"
-        android:drawableRight="@drawable/ic_baseline_navigate_next_24"/>
-
-    <TextView
         style="@style/SettingsTextviewWithBackground"
+        android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+        android:text="@string/notification_settings"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mTvnotificationsettings"
+        app:layout_constraintTop_toBottomOf="@+id/mTvTemporaryhideText" />
+
+    <TextView
+        android:id="@+id/mTvLoginmenthods"
+        style="@style/SettingsTextviewWithBackground"
+        android:drawableRight="@drawable/ic_baseline_navigate_next_24"
         android:text="@string/login_methods"
-        android:drawableRight="@drawable/ic_baseline_navigate_next_24"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvnotificationsettings" />
 
+    <RelativeLayout
+        android:id="@+id/RLbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mTvLoginmenthods">
 
+        <Button
+            android:id="@+id/BtnLogin"
+            style="@style/SettingsButtons"
+            android:text="@string/logout"
+            android:textColor="@color/yellow_bumble"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toStartOf="parent" />
 
-
-
-
-
-
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SettingsButtons"
+            android:layout_toRightOf="@id/BtnLogin"
+            android:text="@string/btndelete"
+            android:textColor="#404040" />
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
