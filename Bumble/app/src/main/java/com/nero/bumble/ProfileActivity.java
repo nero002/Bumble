@@ -12,7 +12,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private Button mbtnsetting;
     private ImageButton mswipe;
-    private ImageButton mbtnChat;
+    private ImageButton mbtnchatprofile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         mbtnsetting = findViewById(R.id.setting);
         mswipe = findViewById(R.id.swipe);
+        mbtnchatprofile= findViewById(R.id.iBtnChatprofile);
 
 
         mbtnsetting.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +45,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         //chatActivity
 
-        mbtnChat.setOnClickListener(new View.OnClickListener() {
+        mbtnchatprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ProfileActivity.this, ChatActivity.class);
