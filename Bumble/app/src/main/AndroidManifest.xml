@@ -17,13 +17,7 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe"></activity>
         <activity android:name=".SwipeManActivity"></activity>
-        <activity android:name=".SwipeWomenActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".SwipeWomenActivity"></activity>
         <activity android:name=".SettingActivity"></activity>
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
@@ -40,7 +34,11 @@
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data

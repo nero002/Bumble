@@ -26,11 +26,15 @@ public class BeforeYouSwipe extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("tag", interstedInData);
-                Intent intentMan = new Intent(BeforeYouSwipe.this, SwipeWomenActivity.class);
-                if (interstedInData.equals("woman")){
+                Intent intentMan = new Intent(BeforeYouSwipe.this, SwipeManActivity.class);
+                Intent intentWoman = new Intent(BeforeYouSwipe.this, SwipeWomenActivity.class);
+                if (interstedInData.equals("man")){
+                    startActivity(intentMan);
+                }else if (interstedInData.equals("woman")){
+                    startActivity(intentWoman);
+                }else {
                     startActivity(intentMan);
                 }
-
 
             }
 
