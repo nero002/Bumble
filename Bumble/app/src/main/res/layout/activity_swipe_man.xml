@@ -10,7 +10,7 @@
     tools:context=".SwipeWomenActivity">
 
     <ImageButton
-        android:id="@+id/iBtnHeart"
+        android:id="@+id/iBtnHeartMen"
         style="@style/Image_Button_alignment"
         android:layout_marginStart="@dimen/dp_10"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_iconfinder_heart_01_186400_1" />
 
     <ImageButton
-        android:id="@+id/iBtnFilter"
+        android:id="@+id/iBtnFilterMen"
         style="@style/Image_Button_alignment"
         android:layout_marginEnd="@dimen/dp_10"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,18 +35,18 @@
         android:text="@string/bumble"
         android:textColor="@color/yellow_bumble"
         android:textSize="@dimen/sp_32"
-        app:layout_constraintEnd_toStartOf="@+id/iBtnFilter"
+        app:layout_constraintEnd_toStartOf="@+id/iBtnFilterMen"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toEndOf="@+id/iBtnHeart"
+        app:layout_constraintStart_toEndOf="@+id/iBtnHeartMen"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/iBtnUser"
+        android:id="@+id/iBtnUserMen"
         style="@style/Image_Button_alignment"
         android:layout_marginStart="@dimen/dp_19"
         android:layout_marginBottom="@dimen/dp_8"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/iBtnHeart"
+        app:layout_constraintStart_toStartOf="@+id/iBtnHeartMen"
         app:srcCompat="@drawable/ic_iconfinder_user_account_profile_5402435_1" />
 
     <ImageButton
@@ -55,7 +55,7 @@
         android:layout_marginEnd="@dimen/dp_19"
         android:layout_marginBottom="@dimen/dp_8"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/iBtnFilter"
+        app:layout_constraintEnd_toEndOf="@+id/iBtnFilterMen"
         app:srcCompat="@drawable/speech_bubble" />
 
     <ImageButton
@@ -63,10 +63,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/iBtnUser"
+        app:layout_constraintBottom_toBottomOf="@+id/iBtnUserMen"
         app:layout_constraintEnd_toStartOf="@+id/iBtnChatMen"
         app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toEndOf="@+id/iBtnUser"
+        app:layout_constraintStart_toEndOf="@+id/iBtnUserMen"
         app:srcCompat="@drawable/ic_menu_button_of_three_horizontal_lines_1__2_" />
 
     <LinearLayout

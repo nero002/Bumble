@@ -33,7 +33,7 @@
 
 
     <ImageButton
-        android:id="@+id/iBtnUser2"
+        android:id="@+id/iBtnUserchat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_30"
@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/ic_iconfinder_user_account_profile_5402435_1"/>
 
     <ImageButton
-        android:id="@+id/iBtnChat2"
+        android:id="@+id/iBtnChatinchat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_30"
@@ -55,14 +55,14 @@
         app:srcCompat="@drawable/ic_chat_50final" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/sameactivitybtninchat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/iBtnUser2"
-        app:layout_constraintEnd_toStartOf="@+id/iBtnChat2"
+        app:layout_constraintBottom_toBottomOf="@+id/iBtnUserchat"
+        app:layout_constraintEnd_toStartOf="@+id/iBtnChatinchat"
         app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toEndOf="@+id/iBtnUser2"
+        app:layout_constraintStart_toEndOf="@+id/iBtnUserchat"
         app:srcCompat="@drawable/ic_middlelightbutton__1_"/>
 
     <HorizontalScrollView

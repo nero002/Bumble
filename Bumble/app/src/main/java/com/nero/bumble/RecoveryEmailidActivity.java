@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 public class RecoveryEmailidActivity extends AppCompatActivity {
     private EditText mEtRecoverEmail;
     private TextView skip;
+    private String interstedInData="";
     private ImageButton iBtnNextFromRecoveryMail;
 
     @Override
@@ -21,6 +23,10 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recovery_emailid);
         initializeViewsAndListeners();
+        if (getIntent()!=null && getIntent().getExtras()!=null){
+            interstedInData=getIntent().getStringExtra("interstedGender");
+            Log.d("tag",interstedInData);
+        }
     }
 
     private void initializeViewsAndListeners() {
@@ -48,7 +54,10 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         iBtnNextFromRecoveryMail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d("tagman",interstedInData);
                 Intent intent = new Intent(RecoveryEmailidActivity.this, firstMoveActivity.class);
+                intent.putExtra("interstedGender",interstedInData);
+                Log.d("tag",interstedInData);
                 if (isValidCredential()) {
                     startActivity(intent);
                 }
@@ -59,7 +68,10 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("tagman",interstedInData);
                 Intent intent = new Intent(RecoveryEmailidActivity.this, firstMoveActivity.class);
+                intent.putExtra("interstedGender",interstedInData);
+                Log.d("tag",interstedInData);
                 startActivity(intent);
             }
         });

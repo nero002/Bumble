@@ -9,9 +9,9 @@ import android.widget.ImageButton;
 
 public class ChatActivity extends AppCompatActivity {
 
-    private ImageButton iBtnUser2;
-    private ImageButton iBtnChat2;
-    private ImageButton imageButton9;
+    private ImageButton iBtnUserchat;
+    private ImageButton iBtnChatinchat;
+    private ImageButton sameactivitybtninchat;
 
 
     @Override
@@ -22,34 +22,33 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        iBtnUser2 = findViewById(R.id.iBtnUser2);
-        iBtnChat2 = findViewById(R.id.iBtnChat2);
-        imageButton9 = findViewById(R.id.imageButton9);
+        iBtnUserchat = findViewById(R.id.iBtnUserchat);
+        iBtnChatinchat = findViewById(R.id.iBtnChatinchat);
+        sameactivitybtninchat = findViewById(R.id.sameactivitybtninchat);
 
-
-        iBtnUser2.setOnClickListener(new View.OnClickListener() {
+          // for going to profile activity
+        iBtnUserchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ChatActivity.this,ProfileActivity.class);
                 startActivity(intent);
             }
         });
-        iBtnChat2.setOnClickListener(new View.OnClickListener() {
+        //for going to the chat activity
+        iBtnChatinchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ChatActivity.this,ChatActivity.class);
                 startActivity(intent);
             }
         });
-        imageButton9.setOnClickListener(new View.OnClickListener() {
+        //for being on the same activity
+        sameactivitybtninchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChatActivity.this,ChatActivity.class);
+                Intent intent = new Intent(ChatActivity.this,SwipeManActivity.class);
                 startActivity(intent);
             }
         });
-
-
-
     }
 }
