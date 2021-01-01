@@ -11,17 +11,14 @@ public class SwipeManActivity extends AppCompatActivity {
     private ImageButton miBtnFilter;
     private ImageButton miBtnUser;
     private ImageButton miBtnHeart;
-    private ImageButton iBtnChat;
-    private ImageButton imageButton9;
-    private ImageButton iBtnStarButtonForSwapWomenP1;
-    private ImageButton iBtnCrossForSwapWomenP1;
-    private ImageButton iBtnTickForSwipeWomenP1;
-    private ImageButton iBtnStarButtonForSwapWomenP2;
-    private ImageButton iBtnCrossForSwapWomenP2;
-    private ImageButton iBtnTickForSwipeWomenP2;
-    private ImageButton iBtnStarButtonForSwapWomenP3;
-    private ImageButton iBtnCrossForSwapWomenP3;
-    private ImageButton iBtnTickForSwipeWomenP3;
+    private ImageButton iBtnChatMen;
+    private ImageButton SameActivityButton;
+    private ImageButton iBtnStarButtonForSwipeMenP1;
+    private ImageButton iBtnTickForSwipeMenP1;
+    private ImageButton iBtnStarButtonForSwipeMenP2;
+    private ImageButton iBtnTickForSwipeMenP2;
+    private ImageButton iBtnStarButtonForSwipeMenP3;
+    private ImageButton iBtnTickForSwipeMenP3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +31,15 @@ public class SwipeManActivity extends AppCompatActivity {
         miBtnFilter = findViewById(R.id.iBtnFilter);
         miBtnUser = findViewById(R.id.iBtnUser);
         miBtnHeart = findViewById(R.id.iBtnHeart);
+        iBtnChatMen = findViewById(R.id.iBtnChatMen);
+        SameActivityButton = findViewById(R.id.SameActivityButton);
+        iBtnStarButtonForSwipeMenP1 = findViewById(R.id.iBtnStarButtonForSwipeMenP1);
+        iBtnTickForSwipeMenP1 = findViewById(R.id.iBtnTickForSwipeMenP1);
+        iBtnStarButtonForSwipeMenP2 = findViewById(R.id.iBtnStarButtonForSwipeMenP2);
+        iBtnTickForSwipeMenP2 = findViewById(R.id.iBtnTickForSwipeMenP2);
+        iBtnStarButtonForSwipeMenP3 = findViewById(R.id.iBtnStarButtonForSwipeMenP3);
+        iBtnTickForSwipeMenP3 = findViewById(R.id.iBtnTickForSwipeMenP3);
+
 
         //for filter button
 
@@ -61,11 +67,12 @@ public class SwipeManActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SwipeManActivity.this, BeelineActivity.class);
+                intent.putExtra("gender","men");
                 startActivity(intent);
             }
         });
         //chat button
-        iBtnChat.setOnClickListener(new View.OnClickListener() {
+        iBtnChatMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SwipeManActivity.this,ChatActivity.class);
@@ -73,7 +80,7 @@ public class SwipeManActivity extends AppCompatActivity {
             }
         });
         //same activity button
-        imageButton9.setOnClickListener(new View.OnClickListener() {
+        SameActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
@@ -81,65 +88,59 @@ public class SwipeManActivity extends AppCompatActivity {
             }
         });
         //star button for swipe man activity
-        iBtnStarButtonForSwapWomenP1.setOnClickListener(new View.OnClickListener() {
+        iBtnStarButtonForSwipeMenP1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
                 startActivity(intent);
             }
         });
-        iBtnCrossForSwapWomenP1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
+
         //tick button for swipe men
-        iBtnTickForSwipeWomenP1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
-        //star button for swipe men
-        iBtnStarButtonForSwapWomenP2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
-        iBtnCrossForSwapWomenP2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        iBtnStarButtonForSwapWomenP3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        iBtnCrossForSwapWomenP3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
-        });
-        iBtnTickForSwipeWomenP3.setOnClickListener(new View.OnClickListener() {
+        iBtnTickForSwipeMenP1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SwipeManActivity.this,BoomActivity.class);
                 startActivity(intent);
             }
         });
+        //star button for swipe men
+        iBtnStarButtonForSwipeMenP2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //for tick button
+
+        iBtnTickForSwipeMenP2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,BoomActivity.class);
+                startActivity(intent);
+            }
+        });
+        //for star button
+
+        iBtnStarButtonForSwipeMenP3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // for tick button
+
+        iBtnTickForSwipeMenP3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,BoomActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
