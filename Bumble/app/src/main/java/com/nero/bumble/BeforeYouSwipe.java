@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class BeforeYouSwipe extends AppCompatActivity {
     private Button mBtnAgree;
-    private String interestId="";
+    private String interstedInData ="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,27 +18,22 @@ public class BeforeYouSwipe extends AppCompatActivity {
         setContentView(R.layout.activity_before_you_swipe);
 
         if (getIntent() != null && getIntent().getExtras() != null) {
-            try {
-                interestId = getIntent().getStringExtra("interest");
-            } catch (Exception exception) {
-                Log.d("tag", "Error");
-            }
-
+            interstedInData = getIntent().getStringExtra("interstedGender");
+            Log.d("tag", interstedInData);
         }
-
         mBtnAgree = findViewById(R.id.mBtnAgree);
         mBtnAgree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (interestId.equals("man")) {
-                    Intent intentMan = new Intent(BeforeYouSwipe.this, SwipeManActivity.class);
+                Log.d("tag", interstedInData);
+                Intent intentMan = new Intent(BeforeYouSwipe.this, SwipeWomenActivity.class);
+                if (interstedInData.equals("woman")){
                     startActivity(intentMan);
-                } else if (interestId.equals("woman")) {
-                    Intent intentWoman = new Intent(BeforeYouSwipe.this, SwipeWomenActivity.class);
-                    startActivity(intentWoman);
                 }
 
+
             }
+
         });
     }
 }

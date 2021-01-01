@@ -86,13 +86,15 @@ public class FacebookActivity extends AppCompatActivity {
     private boolean isCredentialValid() {
         boolean isDataValid = true;
         if (!(etemailphonenumber.getText().toString().contains("@gmail.com"))) {
-            etemailphonenumber.setError("Check you email");
             isDataValid = false;
+            etemailphonenumber.setError("Check you email");
+
         }
 
-        if (etpassword.getText().toString().length() > 6) {
-            etpassword.setError("Password is to small");
+        if (etpassword.getText().toString().length() < 6) {
             isDataValid = false;
+            etpassword.setError("Password is to small");
+
         }
         return isDataValid;
 

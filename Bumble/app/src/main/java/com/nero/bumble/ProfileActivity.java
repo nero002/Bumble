@@ -1,14 +1,56 @@
 package com.nero.bumble;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 public class ProfileActivity extends AppCompatActivity {
+
+    private Button mbtnsetting;
+    private ImageButton mswipe;
+    private ImageButton mbtnChat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+        mbtnsetting = findViewById(R.id.setting);
+        mswipe = findViewById(R.id.swipe);
+
+
+        mbtnsetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProfileActivity.this, SettingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //redirect to swipe women
+
+        mswipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProfileActivity.this, SwipeWomenActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //chatActivity
+
+        mbtnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProfileActivity.this, ChatActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
