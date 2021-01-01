@@ -9,7 +9,7 @@
 <TextView
     android:layout_width="match_parent"
     android:layout_height="@dimen/dp_60"
-    android:drawableRight="@drawable/search2"
+    android:drawableRight="@drawable/ic_vector__4_"
     android:background="@drawable/rectangle_phonenumber_bg"
     android:layout_marginTop="@dimen/dp_15"
     android:id="@+id/mTvsearchicon"
@@ -52,7 +52,7 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/darkchatbutton" />
+        app:srcCompat="@drawable/ic_chat_50final" />
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -81,7 +81,7 @@
                 android:layout_height="@dimen/dp_70"
                 android:layout_marginTop="@dimen/dp_10"
                 android:layout_marginStart="@dimen/dp_30"
-                android:src="@drawable/circlesalman_khan"
+                android:src="@drawable/ishwar"
                 app:civ_border_color="#3498DB"
                 app:civ_border_width="@dimen/dp_6"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -135,6 +135,18 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image6"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/circlesalman_khan"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
         </LinearLayout>
 
     </HorizontalScrollView>
@@ -170,7 +182,7 @@
         android:id="@+id/Imgspotlight"
         app:layout_constraintTop_toBottomOf="@id/mTvconversations"
         app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/ic_spotlightbig"
+        android:src="@drawable/ic_spotlightbig_1"
         android:layout_marginLeft="@dimen/dp_20"
         android:layout_marginTop="@dimen/dp_20"
         android:layout_height="wrap_content"/>
@@ -212,7 +224,7 @@
         app:layout_constraintTop_toBottomOf="@+id/mTvmorepeople"
         android:text="@string/complete_your_profile"
         android:layout_marginLeft="@dimen/dp_20"
-        android:layout_marginTop="@dimen/sp_25"
+       android:layout_marginTop="@dimen/dp_35"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:id="@+id/Tvcomplete"
@@ -226,18 +238,5 @@
         android:text="@string/completeprofile"
         android:layout_marginLeft="@dimen/dp_20"
         android:layout_height="wrap_content"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

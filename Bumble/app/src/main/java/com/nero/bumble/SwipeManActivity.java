@@ -88,12 +88,58 @@ public class SwipeManActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        iBtnCrossForSwapWomenP1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+        //tick button for swipe men
+        iBtnTickForSwipeWomenP1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+        //star button for swipe men
+        iBtnStarButtonForSwapWomenP2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+        iBtnCrossForSwapWomenP2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
 
+        iBtnStarButtonForSwapWomenP3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
 
-
-
-
-
-
+        iBtnCrossForSwapWomenP3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,SwipeManActivity.class);
+                startActivity(intent);
+            }
+        });
+        iBtnTickForSwipeWomenP3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SwipeManActivity.this,BoomActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

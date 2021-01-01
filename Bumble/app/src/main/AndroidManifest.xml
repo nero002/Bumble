@@ -27,7 +27,7 @@
         <activity android:name=".IdentificationActivity"></activity>
         <activity android:name=".FirstPhotoActivity"></activity>
         <activity android:name=".RecoveryEmailidActivity" />
-        <activity android:name=".BirthdayActivity" ></activity>
+        <activity android:name=".BirthdayActivity"></activity>
         <activity android:name=".FirstNameActivity"></activity>
         <activity android:name=".OTPActivity"></activity>
         <activity android:name=".ModeToGetStartedActivity"></activity>

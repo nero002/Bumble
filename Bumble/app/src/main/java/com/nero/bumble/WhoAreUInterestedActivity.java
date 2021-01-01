@@ -4,12 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
 public class WhoAreUInterestedActivity extends AppCompatActivity {
     private ImageButton iBtnManInterested, iBtnWomanInterested, iBtnEveryoneInterested, iBtnNextForInterseted;
     private boolean isSelected = false;
+    private String interestedIndata="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +29,14 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
         iBtnManInterested.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                interestedIndata="man";
+                Log.d("tagman",interestedIndata);
                 iBtnNextForInterseted.setBackgroundResource(R.drawable.circle_btn_bg);
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 isSelected = true;
+
 
             }
         });
@@ -39,6 +44,8 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
         iBtnWomanInterested.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+               interestedIndata="woman";
+                Log.d("tagman",interestedIndata);
                 iBtnNextForInterseted.setBackgroundResource(R.drawable.circle_btn_bg);
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_radioonenne);
@@ -64,6 +71,7 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(WhoAreUInterestedActivity.this, RecoveryEmailidActivity.class);
+                intent.putExtra("interstedGender",interestedIndata);
                 if (isSelected) {
                     startActivity(intent);
                 }
