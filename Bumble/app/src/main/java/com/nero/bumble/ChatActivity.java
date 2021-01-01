@@ -34,7 +34,7 @@ public class ChatActivity extends AppCompatActivity {
         iBtnUserchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChatActivity.this,ProfileActivity.class);
+                Intent intent = new Intent(ChatActivity.this,ProfileWomanActivity.class);
                 startActivity(intent);
             }
         });
