@@ -7,7 +7,7 @@
     tools:context=".ProfileActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/BtnSettingbutton"
         android:layout_width="@dimen/dp_30"
         android:layout_height="@dimen/dp_30"
         android:layout_marginStart="15dp"
@@ -27,7 +27,7 @@
         app:civ_border_width="@dimen/dp_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/BtnSettingbutton" />
 
     <TextView
         android:id="@+id/textView4"
@@ -183,7 +183,7 @@
 
 
     <ImageButton
-        android:id="@+id/iBtnUser"
+        android:id="@+id/iBtnUserinprofile"
         style="@style/Image_Button_alignment"
         android:layout_marginStart="@dimen/dp_30"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,23 +193,26 @@
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageButton
-        android:id="@+id/iBtnChat"
+        android:id="@+id/iBtnChatinprofile"
         style="@style/Image_Button_alignment"
         android:layout_marginTop="164dp"
         android:layout_marginEnd="40dp"
+        android:layout_marginBottom="@dimen/dp_120"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/speech_bubble" />
 
+
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/mBtnsameActivityinProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/iBtnChat"
+        app:layout_constraintEnd_toStartOf="@+id/iBtnChatinprofile"
         app:layout_constraintHorizontal_bias="0.519"
-        app:layout_constraintStart_toEndOf="@+id/iBtnUser"
+        app:layout_constraintStart_toEndOf="@+id/iBtnUserinprofile"
         app:srcCompat="@drawable/ic_menu_button_of_three_horizontal_lines_1__2_" />
 </androidx.constraintlayout.widget.ConstraintLayout>

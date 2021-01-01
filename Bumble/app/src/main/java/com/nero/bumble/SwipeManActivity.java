@@ -8,9 +8,9 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SwipeManActivity extends AppCompatActivity {
-    private ImageButton miBtnFilter;
-    private ImageButton miBtnUser;
-    private ImageButton miBtnHeart;
+    private ImageButton iBtnFilterMen;
+    private ImageButton iBtnUserMen;
+    private ImageButton iBtnHeartMen;
     private ImageButton iBtnChatMen;
     private ImageButton SameActivityButton;
     private ImageButton iBtnStarButtonForSwipeMenP1;
@@ -28,9 +28,9 @@ public class SwipeManActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        miBtnFilter = findViewById(R.id.iBtnFilter);
-        miBtnUser = findViewById(R.id.iBtnUser);
-        miBtnHeart = findViewById(R.id.iBtnHeart);
+        iBtnFilterMen = findViewById(R.id.iBtnFilterMen);
+        iBtnUserMen = findViewById(R.id.iBtnUserMen);
+        iBtnHeartMen = findViewById(R.id.iBtnHeartMen);
         iBtnChatMen = findViewById(R.id.iBtnChatMen);
         SameActivityButton = findViewById(R.id.SameActivityButton);
         iBtnStarButtonForSwipeMenP1 = findViewById(R.id.iBtnStarButtonForSwipeMenP1);
@@ -43,7 +43,7 @@ public class SwipeManActivity extends AppCompatActivity {
 
         //for filter button
 
-        miBtnFilter.setOnClickListener(new View.OnClickListener() {
+        iBtnFilterMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SwipeManActivity.this, FilterActivity.class);
@@ -53,7 +53,7 @@ public class SwipeManActivity extends AppCompatActivity {
 
         // Profile visit
 
-        miBtnUser.setOnClickListener(new View.OnClickListener() {
+        iBtnUserMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SwipeManActivity.this, ProfileActivity.class);
@@ -63,7 +63,7 @@ public class SwipeManActivity extends AppCompatActivity {
 
         //Heart Button
 
-        miBtnHeart.setOnClickListener(new View.OnClickListener() {
+        iBtnHeartMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SwipeManActivity.this, BeelineActivity.class);
