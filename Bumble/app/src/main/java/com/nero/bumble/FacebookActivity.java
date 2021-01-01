@@ -12,12 +12,12 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class FacebookActivity extends AppCompatActivity {
-    private Button mBtnLogin;
+    private Button mbtnlogin;
     private TextView tvCreateAccout;
     private TextView tvNotNow;
     private ImageButton ib_close_btn;
-    private EditText mEtPhoneEmail;
-    private EditText mEtPassword;
+    private EditText etemailphonenumber;
+    private EditText etpassword;
 
 
     @Override
@@ -25,24 +25,25 @@ public class FacebookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facebook);
         initializeViewsAndListeners();
-        isCredentialValid();
+
     }
 
     private void initializeViewsAndListeners() {
-        mBtnLogin = findViewById(R.id.mBtnLogin);
+        mbtnlogin = findViewById(R.id.mBtnLogin);
         tvCreateAccout = findViewById(R.id.createAccount);
         tvNotNow = findViewById(R.id.notNow);
         ib_close_btn = findViewById(R.id.close_btn);
-        mEtPhoneEmail = findViewById(R.id.mEtPhoneEmail);
-        mEtPassword = findViewById(R.id.mEtPassword);
+        etemailphonenumber = findViewById(R.id.mEtPhoneEmail);
+        etpassword = findViewById(R.id.mEtPassword);
 
         //login btn function
 
-        mBtnLogin.setOnClickListener(new View.OnClickListener() {
+        mbtnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
+
                 if(isCredentialValid()){
+                    Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
                     startActivity(intent);
                 }
 
@@ -65,6 +66,8 @@ public class FacebookActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/"));
+                intent.putExtra("data",etemailphonenumber.getText().toString());
+                intent.putExtra("data",etpassword.getText().toString());
                 startActivity(intent);
 
             }
@@ -84,17 +87,16 @@ public class FacebookActivity extends AppCompatActivity {
 
     private boolean isCredentialValid() {
         boolean isDataValid = true;
-        if (!mEtPhoneEmail.getText().toString().contains("@gmail.com")) {
-            mEtPhoneEmail.setError("Check you email");
-            isDataValid = false;
 
+        if (!etemailphonenumber.getText().toString().contains("@gmail.com")) {
+            isDataValid = false;
+            etemailphonenumber.setError("Check you email");
 
         }
 
-        if (mEtPassword.getText().toString().length() < 6) {
-            mEtPassword.setError("Password is to small");
+        if (etpassword.getText().toString().length() < 6) {
             isDataValid = false;
-
+            etpassword.setError("Password is too small");
 
         }
         return isDataValid;
