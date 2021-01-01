@@ -12,7 +12,7 @@ public class ChatActivityForMan extends AppCompatActivity {
     private ImageButton iBtnUserchatForMan;
     private ImageButton iBtnChatinChatForMan;
     private ImageButton sameActivityBtninChatForMan;
-    private  String data ="";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,15 +46,12 @@ public class ChatActivityForMan extends AppCompatActivity {
         sameActivityBtninChatForMan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (data.equals("woman")){
                     Intent intent = new Intent(ChatActivityForMan.this,SwipeWomenActivity.class);
                     startActivity(intent);
-                }else if (data.equals("man")){
-                    Intent intent= new Intent(ChatActivityForMan.this, SwipeManActivity.class);
-                    startActivity(intent);
+
                 }
 
-            }
+
         });
     }
 }
