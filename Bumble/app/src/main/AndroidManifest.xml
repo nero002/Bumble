@@ -23,12 +23,7 @@
 
         </activity>
         <activity android:name=".SwipeWomenActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+            
         </activity>
         <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
@@ -45,7 +40,13 @@
         <activity android:name=".ModeToGetStartedActivity" />
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

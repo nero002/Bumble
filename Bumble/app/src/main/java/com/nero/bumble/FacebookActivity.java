@@ -25,7 +25,7 @@ public class FacebookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facebook);
         initializeViewsAndListeners();
-        isCredentialValid();
+
     }
 
     private void initializeViewsAndListeners() {
@@ -66,6 +66,8 @@ public class FacebookActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/"));
+                intent.putExtra("data",etemailphonenumber.getText().toString());
+                intent.putExtra("data",etpassword.getText().toString());
                 startActivity(intent);
 
             }
@@ -85,7 +87,8 @@ public class FacebookActivity extends AppCompatActivity {
 
     private boolean isCredentialValid() {
         boolean isDataValid = true;
-        if (!(etemailphonenumber.getText().toString().contains("@gmail.com"))) {
+
+        if (!etemailphonenumber.getText().toString().contains("@gmail.com")) {
             isDataValid = false;
             etemailphonenumber.setError("Check you email");
 
@@ -93,7 +96,7 @@ public class FacebookActivity extends AppCompatActivity {
 
         if (etpassword.getText().toString().length() < 6) {
             isDataValid = false;
-            etpassword.setError("Password is to small");
+            etpassword.setError("Password is too small");
 
         }
         return isDataValid;
