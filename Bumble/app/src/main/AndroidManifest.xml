@@ -15,12 +15,7 @@
         <activity android:name=".FilterActivity"></activity>
         <activity android:name=".FacebookActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".BeforeYouSwipe">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".BeforeYouSwipe"></activity>
         <activity android:name=".SwipeManActivity" />
         <activity android:name=".SwipeWomenActivity"></activity>
         <activity android:name=".SettingActivity"></activity>

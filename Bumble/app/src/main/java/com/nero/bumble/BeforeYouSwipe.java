@@ -18,12 +18,7 @@ public class BeforeYouSwipe extends AppCompatActivity {
         setContentView(R.layout.activity_before_you_swipe);
 
         if (getIntent() != null && getIntent().getExtras() != null) {
-            try {
-                interestId = getIntent().getStringExtra("interest");
-            } catch (Exception exception) {
-                Log.d("tag", "Error");
-            }
-
+                interestId = getIntent().getStringExtra("interestData");
         }
 
         mBtnAgree = findViewById(R.id.mBtnAgree);
@@ -33,7 +28,7 @@ public class BeforeYouSwipe extends AppCompatActivity {
                 if (interestId.equals("man")) {
                     Intent intentMan = new Intent(BeforeYouSwipe.this, SwipeManActivity.class);
                     startActivity(intentMan);
-                } else if (interestId.equals("woman")) {
+                } else{
                     Intent intentWoman = new Intent(BeforeYouSwipe.this, SwipeWomenActivity.class);
                     startActivity(intentWoman);
                 }

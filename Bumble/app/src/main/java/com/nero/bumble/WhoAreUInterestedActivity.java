@@ -10,7 +10,6 @@ import android.widget.ImageButton;
 public class WhoAreUInterestedActivity extends AppCompatActivity {
     private ImageButton iBtnManInterested, iBtnWomanInterested, iBtnEveryoneInterested, iBtnNextForInterseted;
     private boolean isSelected = false;
-    private String interestIn = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +32,7 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 isSelected = true;
-                interestIn = "man";
+
             }
         });
 
@@ -45,7 +44,7 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 isSelected = true;
-                interestIn = "woman";
+
             }
         });
 
@@ -65,7 +64,6 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(WhoAreUInterestedActivity.this, RecoveryEmailidActivity.class);
-                intent.putExtra("interestData", interestIn);
                 if (isSelected) {
                     startActivity(intent);
                 }
