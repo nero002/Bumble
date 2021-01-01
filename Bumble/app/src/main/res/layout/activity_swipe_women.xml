@@ -333,7 +333,7 @@
                             android:layout_marginStart="@dimen/dp_14"
                             android:layout_marginTop="@dimen/dp_10"
                             android:padding="@dimen/sp_15"
-                            android:text="@string/i_love_gk_more_than_anything_else"
+                            android:text="Still Struggling"
                             android:textColor="@color/black"
                             android:textSize="@dimen/sp_20" />
 

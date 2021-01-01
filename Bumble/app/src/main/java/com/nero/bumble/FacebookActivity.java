@@ -29,12 +29,12 @@ public class FacebookActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        mbtnlogin = findViewById(R.id.login_btn);
+        mbtnlogin = findViewById(R.id.mBtnLogin);
         tvCreateAccout = findViewById(R.id.createAccount);
         tvNotNow = findViewById(R.id.notNow);
         ib_close_btn = findViewById(R.id.close_btn);
-        etemailphonenumber = findViewById(R.id.email_phone_number);
-        etpassword = findViewById(R.id.password);
+        etemailphonenumber = findViewById(R.id.mEtPhoneEmail);
+        etpassword = findViewById(R.id.mEtPassword);
 
         //login btn function
 

@@ -28,7 +28,7 @@
         android:id="@+id/logo"
         android:layout_width="@dimen/dp_100"
         android:layout_height="@dimen/dp_100"
-        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fb_heading"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
-        android:id="@+id/email_phone_number"
+        android:id="@+id/mEtPhoneEmail"
         style="@style/EditText_login_fb_page"
         android:layout_marginTop="@dimen/dp_10"
         android:background="@drawable/rectangle_fb_login_bg"
@@ -55,17 +55,17 @@
         app:layout_constraintTop_toBottomOf="@+id/logo_text" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/mEtPassword"
         style="@style/EditText_login_fb_page"
         android:background="@drawable/fb_login_rectangle_bottom_round_bg"
         android:hint="@string/facebook_password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_phone_number" />
+        app:layout_constraintTop_toBottomOf="@+id/mEtPhoneEmail" />
 
     <Button
-        android:id="@+id/login_btn"
+        android:id="@+id/mBtnLogin"
         style="@style/EditText_login_fb_page"
         android:layout_marginTop="@dimen/dp_20"
         android:background="@drawable/fb_login_btn_bg"
@@ -75,7 +75,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/mEtPassword" />
 
     <TextView
         android:id="@+id/createAccount"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:textColor="@color/create_not_now"
-        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/mBtnLogin" />
 
     <TextView
         android:id="@+id/notNow"

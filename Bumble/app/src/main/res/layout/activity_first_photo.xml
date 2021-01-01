@@ -104,7 +104,7 @@
         app:layout_constraintStart_toStartOf="@+id/mEtAddFromFacebook"
         app:layout_constraintTop_toBottomOf="@+id/iBtnGalleryPlus"
         app:layout_constraintVertical_bias="0.727"
-        app:srcCompat="@drawable/ic_facebook_circular_logo" />
+        app:srcCompat="@drawable/ic_iconfinder_46_facebook_104458" />
 
     <TextView
         android:id="@+id/mTvFullTextView"
