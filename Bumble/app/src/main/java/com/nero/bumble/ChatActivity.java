@@ -12,6 +12,7 @@ public class ChatActivity extends AppCompatActivity {
     private ImageButton iBtnUserchat;
     private ImageButton iBtnChatinchat;
     private ImageButton sameactivitybtninchat;
+    private  String data ="";
 
 
     @Override
@@ -19,6 +20,9 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
         initializeViewsAndListeners();
+        if (getIntent()!=null && getIntent().getExtras()!= null){
+            data= getIntent().getStringExtra("whichone");
+        }
     }
 
     private void initializeViewsAndListeners() {
@@ -46,9 +50,10 @@ public class ChatActivity extends AppCompatActivity {
         sameactivitybtninchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChatActivity.this,SwipeManActivity.class);
-                startActivity(intent);
-            }
+                    Intent intent = new Intent(ChatActivity.this,SwipeManActivity.class);
+                    startActivity(intent);
+                }
+
         });
     }
 }

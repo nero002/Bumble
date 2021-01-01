@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class RecoveryEmailidActivity extends AppCompatActivity {
     private EditText mEtRecoverEmail;
     private TextView skip;
-    private String interstedInData="";
+    private String interstedInData = "";
     private ImageButton iBtnNextFromRecoveryMail;
 
     @Override
@@ -23,9 +23,9 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recovery_emailid);
         initializeViewsAndListeners();
-        if (getIntent()!=null && getIntent().getExtras()!=null){
-            interstedInData=getIntent().getStringExtra("interstedGender");
-            Log.d("tag",interstedInData);
+        if (getIntent() != null && getIntent().getExtras() != null) {
+            interstedInData = getIntent().getStringExtra("interstedGender");
+            Log.d("tag", interstedInData);
         }
     }
 
@@ -54,10 +54,10 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         iBtnNextFromRecoveryMail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("tagman",interstedInData);
+                Log.d("tagman", interstedInData);
                 Intent intent = new Intent(RecoveryEmailidActivity.this, firstMoveActivity.class);
-                intent.putExtra("interstedGender",interstedInData);
-                Log.d("tag",interstedInData);
+                intent.putExtra("interstedGender", interstedInData);
+                Log.d("tag", interstedInData);
                 if (isValidCredential()) {
                     startActivity(intent);
                 }
@@ -68,11 +68,17 @@ public class RecoveryEmailidActivity extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("tagman",interstedInData);
+                Log.d("tagman", interstedInData);
                 Intent intent = new Intent(RecoveryEmailidActivity.this, firstMoveActivity.class);
-                intent.putExtra("interstedGender",interstedInData);
-                Log.d("tag",interstedInData);
-                startActivity(intent);
+                Intent intent2 = new Intent(RecoveryEmailidActivity.this, MakeTheFirstMoveMen.class);
+                intent.putExtra("interstedGender", interstedInData);
+                Log.d("tag", interstedInData);
+                if (interstedInData.equals("everyone")) {
+                    startActivity(intent2);
+                } else {
+                    startActivity(intent);
+                }
+
             }
         });
     }

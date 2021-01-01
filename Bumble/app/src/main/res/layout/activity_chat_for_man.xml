@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_vector__4_"
+        android:background="@drawable/rectangle_phonenumber_bg"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/mTvsearchicon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mTvsearchicon"
+        android:text="@string/match_queue"
+        android:id="@+id/mTvmatchqueue"
+        android:textSize="@dimen/sp_25"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/dp_30"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageButton
+        android:id="@+id/iBtnUserchatForMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_iconfinder_user_account_profile_5402435_1"/>
+
+    <ImageButton
+        android:id="@+id/iBtnChatinChatForMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_chat_50final" />
+
+    <ImageButton
+        android:id="@+id/sameActivityBtninChatForMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iBtnUserchatForMan"
+        app:layout_constraintEnd_toStartOf="@+id/iBtnChatinChatForMan"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toEndOf="@+id/iBtnUserchatForMan"
+        app:srcCompat="@drawable/ic_middlelightbutton__1_"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/Hsvmatches"
+        android:layout_marginTop="@dimen/dp_5"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@+id/mTvmatchqueue"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image1"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_30"
+                android:src="@drawable/ananya_one"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image2"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:src="@drawable/alia_one"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image3"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/ananya_three"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image4"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:src="@drawable/soubia"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image5"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/rekha_eight"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/matches_image6"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/katrina_one"
+                app:civ_border_color="#3498DB"
+                app:civ_border_width="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mTvconversations"
+        app:layout_constraintTop_toBottomOf="@id/Hsvmatches"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/conversations"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mTvrecent"
+        app:layout_constraintStart_toEndOf="@id/mTvconversations"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Hsvmatches"
+        android:text="@string/recent"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_120"
+        android:drawableEnd="@drawable/ic_options_1"
+        android:drawablePadding="@dimen/dp_15"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/Imgspotlight"
+        app:layout_constraintTop_toBottomOf="@id/mTvconversations"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_spotlightbig_1"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/Imgspotlight"
+        app:layout_constraintTop_toBottomOf="@+id/mTvrecent"
+        android:text="@string/get_to_the_front_of_the_queue"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/mTvqueue"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mTvmorepeople"
+        app:layout_constraintTop_toBottomOf="@+id/mTvqueue"
+        app:layout_constraintStart_toEndOf="@id/Imgspotlight"
+        android:text="@string/be_seen_by_more_people_in_spotlight"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/Imgcircle"
+        app:layout_constraintTop_toBottomOf="@id/Imgspotlight"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_textcircle"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/Imgcircle"
+        app:layout_constraintTop_toBottomOf="@+id/mTvmorepeople"
+        android:text="@string/complete_your_profile"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/Tvcomplete"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mTvcompleteprofile"
+        app:layout_constraintTop_toBottomOf="@+id/Tvcomplete"
+        app:layout_constraintStart_toEndOf="@id/Imgcircle"
+        android:text="@string/completeprofile"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

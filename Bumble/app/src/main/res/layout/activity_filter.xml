@@ -39,7 +39,6 @@
         android:layout_marginTop="@dimen/dp_5"
         android:background="@drawable/filter_rectangle_bg"
         android:orientation="horizontal"
-        android:padding="@dimen/dp_20"
         android:weightSum="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,29 +46,29 @@
 
 
         <Button
-            android:id="@+id/men"
+            android:id="@+id/btnMenFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/white"
+            android:background="@drawable/filter_btn_bg"
             android:text="@string/men"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/Women"
+            android:id="@+id/btnWomenFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/white"
+            android:background="@drawable/filter_btn_bg"
             android:text="@string/women"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/Everyone"
+            android:id="@+id/btnEveryoneFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/white"
+            android:background="@drawable/filter_btn_bg"
             android:text="@string/everyone"
             android:textAllCaps="false" />
     </LinearLayout>

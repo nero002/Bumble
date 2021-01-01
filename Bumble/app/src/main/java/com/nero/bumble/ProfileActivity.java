@@ -28,6 +28,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ProfileActivity.this, SettingActivity.class);
+                intent.putExtra("data","man");
                 startActivity(intent);
             }
         });
@@ -48,7 +49,7 @@ public class ProfileActivity extends AppCompatActivity {
         mbtnchatprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ProfileActivity.this, ChatActivity.class);
+                Intent intent = new Intent(ProfileActivity.this, ChatActivityForMan.class);
                 startActivity(intent);
             }
         });

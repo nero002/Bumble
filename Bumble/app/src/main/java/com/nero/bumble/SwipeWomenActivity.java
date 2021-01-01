@@ -72,7 +72,8 @@ public class SwipeWomenActivity extends AppCompatActivity {
         iBtnChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SwipeWomenActivity.this,ChatActivity.class);
+                Intent intent = new Intent(SwipeWomenActivity.this,ChatActivityForMan.class);
+                intent.putExtra("whichone","woman");
                 startActivity(intent);
             }
         });
