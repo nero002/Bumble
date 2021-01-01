@@ -122,7 +122,7 @@ public class SwipeManActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //for star button
+        //for star button`
 
         iBtnStarButtonForSwipeMenP3.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -12,20 +12,27 @@
         <activity android:name=".BoomActivity"></activity>
         <activity android:name=".ChatActivity" />
         <activity android:name=".BeelineActivity" />
-        <activity android:name=".FilterActivity"></activity>
+        <activity android:name=".FilterActivity" />
         <activity android:name=".FacebookActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".BeforeYouSwipe" />
-        <activity android:name=".SwipeManActivity" />
+        <activity android:name=".SwipeManActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SwipeWomenActivity" />
+
         <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
         <activity android:name=".EnableLocationActivity" />
         <activity android:name=".connectActivity" />
         <activity android:name=".WhoAreUInterestedActivity" />
-        <activity android:name=".firstMoveActivity"/>
+        <activity android:name=".firstMoveActivity" />
         <activity android:name=".IdentificationActivity" />
-        <activity android:name=".FirstPhotoActivity"/>
+        <activity android:name=".FirstPhotoActivity" />
         <activity android:name=".RecoveryEmailidActivity" />
         <activity android:name=".BirthdayActivity" />
         <activity android:name=".FirstNameActivity"/>
@@ -34,11 +41,7 @@
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
