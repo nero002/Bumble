@@ -42,7 +42,7 @@ public class OTPActivity extends AppCompatActivity {
                 mEtThirdDigit.setText("0");
                 mEtFourthDigit.setText("5");
             }
-        }, 3000);
+        }, 2000);
     }
 
     private void initializeViewsAndListeners() {

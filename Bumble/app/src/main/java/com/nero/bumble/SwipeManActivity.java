@@ -56,7 +56,7 @@ public class SwipeManActivity extends AppCompatActivity {
         iBtnUserMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SwipeManActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(SwipeManActivity.this, ProfileWomanActivity.class);
                 startActivity(intent);
             }
         });
@@ -76,6 +76,7 @@ public class SwipeManActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SwipeManActivity.this,ChatActivity.class);
+                intent.putExtra("whichone","man");
                 startActivity(intent);
             }
         });

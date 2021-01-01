@@ -36,8 +36,6 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
                 iBtnWomanInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_radioonenne);
                 isSelected = true;
-
-
             }
         });
 
@@ -58,6 +56,7 @@ public class WhoAreUInterestedActivity extends AppCompatActivity {
         iBtnEveryoneInterested.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                interestedIndata="everyone";
                 iBtnNextForInterseted.setBackgroundResource(R.drawable.circle_btn_bg);
                 iBtnEveryoneInterested.setBackgroundResource(R.drawable.ic_iconfinder_check_6586148_1);
                 iBtnManInterested.setBackgroundResource(R.drawable.ic_radioonenne);
