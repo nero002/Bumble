@@ -12,12 +12,12 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class FacebookActivity extends AppCompatActivity {
-    private Button mbtnlogin;
+    private Button mBtnLogin;
     private TextView tvCreateAccout;
     private TextView tvNotNow;
     private ImageButton ib_close_btn;
-    private EditText etemailphonenumber;
-    private EditText etpassword;
+    private EditText mEtPhoneEmail;
+    private EditText mEtPassword;
 
 
     @Override
@@ -29,21 +29,20 @@ public class FacebookActivity extends AppCompatActivity {
     }
 
     private void initializeViewsAndListeners() {
-        mbtnlogin = findViewById(R.id.login_btn);
+        mBtnLogin = findViewById(R.id.mBtnLogin);
         tvCreateAccout = findViewById(R.id.createAccount);
         tvNotNow = findViewById(R.id.notNow);
         ib_close_btn = findViewById(R.id.close_btn);
-        etemailphonenumber = findViewById(R.id.email_phone_number);
-        etpassword = findViewById(R.id.password);
+        mEtPhoneEmail = findViewById(R.id.mEtPhoneEmail);
+        mEtPassword = findViewById(R.id.mEtPassword);
 
         //login btn function
 
-        mbtnlogin.setOnClickListener(new View.OnClickListener() {
+        mBtnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
                 if(isCredentialValid()){
-                    Intent intent = new Intent(FacebookActivity.this, EnableLocationActivity.class);
                     startActivity(intent);
                 }
 
@@ -85,15 +84,17 @@ public class FacebookActivity extends AppCompatActivity {
 
     private boolean isCredentialValid() {
         boolean isDataValid = true;
-        if (!(etemailphonenumber.getText().toString().contains("@gmail.com"))) {
+        if (!mEtPhoneEmail.getText().toString().contains("@gmail.com")) {
+            mEtPhoneEmail.setError("Check you email");
             isDataValid = false;
-            etemailphonenumber.setError("Check you email");
+
 
         }
 
-        if (etpassword.getText().toString().length() < 6) {
+        if (mEtPassword.getText().toString().length() < 6) {
+            mEtPassword.setError("Password is to small");
             isDataValid = false;
-            etpassword.setError("Password is to small");
+
 
         }
         return isDataValid;

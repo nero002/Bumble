@@ -15,18 +15,20 @@
         <activity android:name=".ChatActivity" />
         <activity android:name=".BeelineActivity" />
         <activity android:name=".FilterActivity"></activity>
-        <activity android:name=".FacebookActivity" />
+        <activity android:name=".FacebookActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ProfileActivity"></activity>
         <activity android:name=".BeforeYouSwipe" />
         <activity android:name=".SwipeManActivity">
 
         </activity>
         <activity android:name=".SwipeWomenActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SettingActivity" />
         <activity android:name=".MakeTheFirstMoveMen" />
