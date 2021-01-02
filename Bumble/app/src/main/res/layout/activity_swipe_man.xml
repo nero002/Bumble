@@ -590,171 +590,171 @@
 
                 </ScrollView>
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yellowishagain">
+<!--                <ScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginRight="@dimen/dp_10"-->
+<!--                    android:background="@color/yellowishagain">-->
 
-                    <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="@dimen/dp_5"
-                        android:layout_marginRight="@dimen/dp_5"
-                        android:orientation="vertical">
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginLeft="@dimen/dp_5"-->
+<!--                        android:layout_marginRight="@dimen/dp_5"-->
+<!--                        android:orientation="vertical">-->
 
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_horizontal"
-                            android:background="@color/white"
-                            android:elevation="@dimen/dp_20"
-                            app:cardCornerRadius="@dimen/dp_30"
-                            app:cardElevation="@dimen/dp_10">
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:background="@color/white"-->
+<!--                            android:elevation="@dimen/dp_20"-->
+<!--                            app:cardCornerRadius="@dimen/dp_30"-->
+<!--                            app:cardElevation="@dimen/dp_10">-->
 
-                            <FrameLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+<!--                            <FrameLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent">-->
 
-                                <ImageView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="600dp"
-                                    android:layout_marginBottom="@dimen/dp_10"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/vaibhav_one" />
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="600dp"-->
+<!--                                    android:layout_marginBottom="@dimen/dp_10"-->
+<!--                                    android:scaleType="fitXY"-->
+<!--                                    android:src="@drawable/vaibhav_one" />-->
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="bottom"
-                                    android:layout_marginStart="@dimen/dp_20"
-                                    android:layout_marginBottom="@dimen/dp_30"
-                                    android:text="V,24"
-                                    android:textColor="@color/white"
-                                    android:textSize="@dimen/sp_25"
-                                    android:textStyle="bold" />
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="bottom"-->
+<!--                                    android:layout_marginStart="@dimen/dp_20"-->
+<!--                                    android:layout_marginBottom="@dimen/dp_30"-->
+<!--                                    android:text="V,24"-->
+<!--                                    android:textColor="@color/white"-->
+<!--                                    android:textSize="@dimen/sp_25"-->
+<!--                                    android:textStyle="bold" />-->
 
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="bottom|right"
-                                    android:layout_marginEnd="@dimen/dp_20"
-                                    android:background="@null"
-                                    android:layout_marginBottom="@dimen/dp_20"
-                                    android:src="@drawable/ic_iconfinder_instagram_1302086_1__1_" />
+<!--                                <ImageButton-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_gravity="bottom|right"-->
+<!--                                    android:layout_marginEnd="@dimen/dp_20"-->
+<!--                                    android:background="@null"-->
+<!--                                    android:layout_marginBottom="@dimen/dp_20"-->
+<!--                                    android:src="@drawable/ic_iconfinder_instagram_1302086_1__1_" />-->
 
-                            </FrameLayout>
-
-
-                        </androidx.cardview.widget.CardView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/dp_14"
-                            android:layout_marginTop="@dimen/dp_10"
-                            android:padding="@dimen/sp_15"
-                            android:text="@string/swipe_right_if_you_are_ismart_enough_to_get_my_joke"
-                            android:textColor="@color/black"
-                            android:textSize="@dimen/sp_20" />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="500dp"
-                            android:layout_marginTop="@dimen/dp_2"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/vaibhav_one" />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="500dp"
-                            android:layout_marginTop="@dimen/dp_2"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/vaibhav_one" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/dp_14"
-                            android:layout_marginTop="@dimen/dp_10"
-                            android:drawableStart="@drawable/ic_iconfinder_marker_2190978"
-                            android:drawablePadding="@dimen/dp_10"
-                            android:text="@string/pg_s_location"
-                            android:textColor="@color/black" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/dp_14"
-                            android:layout_marginTop="@dimen/dp_10"
-                            android:drawablePadding="@dimen/dp_10"
-                            android:fontFamily="sans-serif"
-                            android:paddingBottom="@dimen/dp_10"
-                            android:text="@string/mumbai_india"
-                            android:textColor="@color/black"
-                            android:textSize="@dimen/sp_25" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/dp_14"
-                            android:layout_marginTop="@dimen/dp_5"
-                            android:drawableStart="@drawable/ic_iconfinder_spotify_rounded_621252"
-                            android:drawablePadding="@dimen/dp_10"
-                            android:paddingBottom="@dimen/dp_10"
-                            android:text="@string/pg_s_location"
-                            android:textColor="@color/black" />
-
-                        <ImageButton
-                            android:id="@+id/iBtnStarButtonForSwipeMenP4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="@dimen/dp_10"
-                            android:background="@color/yellowishagain"
-                            android:src="@drawable/ic_iconfinder_instagram_1302086_1__1_" />
+<!--                            </FrameLayout>-->
 
 
-                        <FrameLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="@dimen/dp_30">
+<!--                        </androidx.cardview.widget.CardView>-->
 
-                            <ImageButton
-                                android:id="@+id/iBtnCrossForSwipeMenP4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="@dimen/dp_40"
-                                android:background="@color/yellowishagain"
-                                android:src="@drawable/ic_crosssss" />
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginStart="@dimen/dp_14"-->
+<!--                            android:layout_marginTop="@dimen/dp_10"-->
+<!--                            android:padding="@dimen/sp_15"-->
+<!--                            android:text="@string/swipe_right_if_you_are_ismart_enough_to_get_my_joke"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="@dimen/sp_20" />-->
 
-                            <TextView
-                                android:id="@+id/mTvBlockReportP4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginTop="@dimen/dp_30"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/block_user"
-                                android:textColor="@color/yellow_bumble"
-                                android:textSize="@dimen/sp_18" />
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="500dp"-->
+<!--                            android:layout_marginTop="@dimen/dp_2"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:src="@drawable/vaibhav_one" />-->
 
-                            <ImageButton
-                                android:id="@+id/iBtnTickForSwipeMenP4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="end"
-                                android:layout_marginEnd="@dimen/dp_40"
-                                android:background="@color/yellowishagain"
-                                android:src="@drawable/ic_checkkkkkkkkkkkkk_1" />
-                        </FrameLayout>
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="500dp"-->
+<!--                            android:layout_marginTop="@dimen/dp_2"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:src="@drawable/vaibhav_one" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginStart="@dimen/dp_14"-->
+<!--                            android:layout_marginTop="@dimen/dp_10"-->
+<!--                            android:drawableStart="@drawable/ic_iconfinder_marker_2190978"-->
+<!--                            android:drawablePadding="@dimen/dp_10"-->
+<!--                            android:text="@string/pg_s_location"-->
+<!--                            android:textColor="@color/black" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginStart="@dimen/dp_14"-->
+<!--                            android:layout_marginTop="@dimen/dp_10"-->
+<!--                            android:drawablePadding="@dimen/dp_10"-->
+<!--                            android:fontFamily="sans-serif"-->
+<!--                            android:paddingBottom="@dimen/dp_10"-->
+<!--                            android:text="@string/mumbai_india"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="@dimen/sp_25" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginStart="@dimen/dp_14"-->
+<!--                            android:layout_marginTop="@dimen/dp_5"-->
+<!--                            android:drawableStart="@drawable/ic_iconfinder_spotify_rounded_621252"-->
+<!--                            android:drawablePadding="@dimen/dp_10"-->
+<!--                            android:paddingBottom="@dimen/dp_10"-->
+<!--                            android:text="@string/pg_s_location"-->
+<!--                            android:textColor="@color/black" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/iBtnStarButtonForSwipeMenP4"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:layout_marginTop="@dimen/dp_10"-->
+<!--                            android:background="@color/yellowishagain"-->
+<!--                            android:src="@drawable/ic_iconfinder_instagram_1302086_1__1_" />-->
 
 
-                    </LinearLayout>
+<!--                        <FrameLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:paddingBottom="@dimen/dp_30">-->
+
+<!--                            <ImageButton-->
+<!--                                android:id="@+id/iBtnCrossForSwipeMenP4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="@dimen/dp_40"-->
+<!--                                android:background="@color/yellowishagain"-->
+<!--                                android:src="@drawable/ic_crosssss" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/mTvBlockReportP4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_marginTop="@dimen/dp_30"-->
+<!--                                android:fontFamily="sans-serif-black"-->
+<!--                                android:text="@string/block_user"-->
+<!--                                android:textColor="@color/yellow_bumble"-->
+<!--                                android:textSize="@dimen/sp_18" />-->
+
+<!--                            <ImageButton-->
+<!--                                android:id="@+id/iBtnTickForSwipeMenP4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="end"-->
+<!--                                android:layout_marginEnd="@dimen/dp_40"-->
+<!--                                android:background="@color/yellowishagain"-->
+<!--                                android:src="@drawable/ic_checkkkkkkkkkkkkk_1" />-->
+<!--                        </FrameLayout>-->
 
 
-                </ScrollView>
+<!--                    </LinearLayout>-->
+
+
+<!--                </ScrollView>-->
 
             </LinearLayout>
 
