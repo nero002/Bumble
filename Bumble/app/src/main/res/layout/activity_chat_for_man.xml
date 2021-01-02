@@ -9,9 +9,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableRight="@drawable/ic_vector__4_"
+        android:drawableRight="@drawable/ic_baseline_search_24"
         android:background="@drawable/rectangle_phonenumber_bg"
         android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        app:layout_goneMarginTop="@dimen/dp_10"
         android:id="@+id/mTvsearchicon"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
