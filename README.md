@@ -1,6 +1,6 @@
 # Bumble
 
-![Bumble](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fbumble&psig=AOvVaw3XqnhziJpePmTvSQVc_sjy&ust=1609830700939000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjv_-3cge4CFQAAAAAdAAAAABAK)
+![Bumble](https://sm.pcmag.com/t/pcmag_in/review/b/bumble/bumble_3afs.1920.jpg)
 
 ------------------- INTRODUCTION ----------------------
 
