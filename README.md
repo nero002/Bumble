@@ -13,7 +13,7 @@ Bumble is a dating app that allows you to make new connections, whether you’re
 2) Ishwar Kumar: [GitHub Link] (https://github.com/ishu260596)
 3) Dheeraj Gupta: [GitHub Profile) (https://github.com/nero002/Bumble)
 
------------------ Comaprison of Original and cloned page --------------
+----------------- cloned page app--------------
 
 <img src="https://media.giphy.com/media/p4cpWUqELDaAlP2Ru2/giphy.gif"/>
 
