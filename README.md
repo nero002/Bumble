@@ -1,6 +1,6 @@
 # Bumble
 
-![Bumble](https://sm.pcmag.com/t/pcmag_in/review/b/bumble/bumble_3afs.1920.jpg)
+![Bumble](https://sm.pcmag.com/t/pcmag_in/review/b/bumble/bumble_3afs.1920.jpg width="200" height="400" )
 
 ------------------- INTRODUCTION ----------------------
 
