@@ -15,5 +15,5 @@ Bumble is a dating app that allows you to make new connections, whether you’re
 
 ----------------- Comaprison of Original and cloned page --------------
 
-
+<img src="https://media.giphy.com/media/p4cpWUqELDaAlP2Ru2/giphy.gif"/>
 
